@@ -1,0 +1,5 @@
+/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m: In function '-[PayViewController checkCompletionTimerAction:]':
+/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m:123: warning: 'G6Ads' may not respond to '-checkOffer:'
+/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m:123: warning: (Messages without a matching method signature
+/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m:123: warning: will be assumed to return 'id' and accept
+/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m:123: warning: '...' as arguments.)

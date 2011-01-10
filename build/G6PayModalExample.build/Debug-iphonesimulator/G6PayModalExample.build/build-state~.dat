@@ -1,0 +1,296 @@
+TG6PayModalExample
+v7
+r0
+t314776583.915992
+cCheck dependencies
+cProcessInfoPlistFile "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app/Info.plist" G6PayModalExample-Info.plist
+cCompileXIB "/Users/g6media/Desktop/API LOL/G6PayModalExample/MainWindow.xib"
+cCompileXIB "/Users/g6media/Desktop/API LOL/G6PayModalExample/G6PayModalExampleViewController.xib"
+cProcessPCH /var/folders/aZ/aZ7beZpHEbSPdW3gkJCf-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/G6PayModalExample_Prefix-eacbhnriniiasrcdtiecusvtcbis/G6PayModalExample_Prefix.pch.gch G6PayModalExample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/Objects-normal/i386/main.o "/Users/g6media/Desktop/API LOL/G6PayModalExample/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/Objects-normal/i386/G6PayModalExampleAppDelegate.o "/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/Objects-normal/i386/G6PayModalExampleViewController.o "/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/Objects-normal/i386/PayViewController.o "/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app/G6PayModalExample" normal i386
+cGenerateDSYMFile "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app.dSYM" "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app/G6PayModalExample"
+cTouch "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CA8D9B70000000000000110
+t1286134199
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C99BDBC000000000029B310
+t1285143996
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C99BE55000000000029D5D0
+t1285144149
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C99BE3E0000000000001466
+t1285144126
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C99C5250000000000000AA1
+t1285145893
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C99C5B40000000000744330
+t1285146036
+s7619376
+
+N/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m
+c000000004D12E29E0000000000000626
+t1293083294
+s1574
+i"PayViewController.h"
+
+N/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleAppDelegate.h
+c000000004D12E25B0000000000000220
+t1293083227
+s544
+i<UIKit/UIKit.h>
+
+N/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleAppDelegate.m
+c000000004D12E25B0000000000000AC2
+t1293083227
+s2754
+i"G6PayModalExampleAppDelegate.h"
+i"G6PayModalExampleViewController.h"
+
+N/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.h
+c000000004D12E3580000000000000148
+t1293083480
+s328
+i<UIKit/UIKit.h>
+i"PayViewController.h"
+
+N/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m
+c000000004D12E48100000000000007D4
+t1293083777
+s2004
+i"G6PayModalExampleViewController.h"
+
+N/Users/g6media/Desktop/API LOL/G6PayModalExample/G6PayModalExampleViewController.xib
+c000000004D12E25B0000000000001A6D
+t1293083227
+s6765
+
+N/Users/g6media/Desktop/API LOL/G6PayModalExample/G6PayModalExample_Prefix.pch
+c000000004D12E25C00000000000000CB
+t1293083228
+s203
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/g6media/Desktop/API LOL/G6PayModalExample/MainWindow.xib
+c000000004D12E25B0000000000004EA1
+t1293083227
+s20129
+
+N/Users/g6media/Desktop/API LOL/G6PayModalExample/PayViewController.h
+c000000004D12E29E00000000000000F5
+t1293083294
+s245
+i<UIKit/UIKit.h>
+
+N/Users/g6media/Desktop/API LOL/G6PayModalExample/PayViewController.m
+c000000004D12E29E0000000000000626
+t1293083294
+s1574
+i"PayViewController.h"
+
+N/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app
+t1293083783
+s238
+
+N/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app.dSYM
+t1293083783
+s102
+
+N/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app/G6PayModalExample
+t1293083783
+s19196
+
+N/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app/G6PayModalExampleViewController.nib
+t1293083782
+s795
+
+N/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app/Info.plist
+t1293083781
+s637
+
+N/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app/MainWindow.nib
+t1293083782
+s1143
+
+N/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app/PkgInfo
+t1293083781
+s8
+
+N/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/Objects-normal/i386/G6PayModalExample.LinkFileList
+c000000004D12E48500000000000002A0
+t1293083781
+s672
+
+N/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/Objects-normal/i386/G6PayModalExampleAppDelegate.o
+t1293083783
+s51588
+
+N/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/Objects-normal/i386/G6PayModalExampleViewController.o
+t1293083783
+s41908
+
+N/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/Objects-normal/i386/PayViewController.o
+t1293083783
+s37624
+
+N/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/Objects-normal/i386/main.o
+t1293083783
+s6324
+
+N/Users/g6media/Desktop/API LOL/G6PayModalExample/main.m
+c000000004D12E25C0000000000000178
+t1293083228
+s376
+i<UIKit/UIKit.h>
+
+N/var/folders/aZ/aZ7beZpHEbSPdW3gkJCf-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/G6PayModalExample_Prefix-eacbhnriniiasrcdtiecusvtcbis/G6PayModalExample_Prefix.pch.gch
+t1293083783
+s15437008
+
+NG6PayModalExample-Info.plist
+c000000004D12E25B000000000000038D
+t1293083227
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies314776581#314776581#0(0"0(0#1#0"8617995776#0"0#
+
+CCompileC build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/Objects-normal/i386/G6PayModalExampleAppDelegate.o "/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s314776583.659129
+e314776583.752091
+r1
+xCompileC
+xbuild/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/Objects-normal/i386/G6PayModalExampleAppDelegate.o
+x/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleAppDelegate.m314776583#314776583#0(0"0(0#0#87"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleAppDelegate.m8618703872#2302"    cd "/Users/g6media/Desktop/API LOL/G6PayModalExample"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/G6PayModalExample-generated-files.hmap" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/G6PayModalExample-own-target-headers.hmap" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/G6PayModalExample-all-target-headers.hmap" -iquote "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/G6PayModalExample-project-headers.hmap" "-F/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/include" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/DerivedSources/i386" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/DerivedSources" -include /var/folders/aZ/aZ7beZpHEbSPdW3gkJCf-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/G6PayModalExample_Prefix-eacbhnriniiasrcdtiecusvtcbis/G6PayModalExample_Prefix.pch -c "/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleAppDelegate.m" -o "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/Objects-normal/i386/G6PayModalExampleAppDelegate.o"0#
+
+CCompileC build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/Objects-normal/i386/G6PayModalExampleViewController.o "/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s314776583.718506
+e314776583.813558
+r1
+xCompileC
+xbuild/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/Objects-normal/i386/G6PayModalExampleViewController.o
+x/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m314776583#314776583#0(0"0(0#0#90"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m8617921120#2308"    cd "/Users/g6media/Desktop/API LOL/G6PayModalExample"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/G6PayModalExample-generated-files.hmap" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/G6PayModalExample-own-target-headers.hmap" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/G6PayModalExample-all-target-headers.hmap" -iquote "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/G6PayModalExample-project-headers.hmap" "-F/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/include" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/DerivedSources/i386" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/DerivedSources" -include /var/folders/aZ/aZ7beZpHEbSPdW3gkJCf-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/G6PayModalExample_Prefix-eacbhnriniiasrcdtiecusvtcbis/G6PayModalExample_Prefix.pch -c "/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m" -o "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/Objects-normal/i386/G6PayModalExampleViewController.o"0#
+
+CCompileC build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/Objects-normal/i386/PayViewController.o "/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s314776583.752194
+e314776583.851184
+r1
+xCompileC
+xbuild/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/Objects-normal/i386/PayViewController.o
+x/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m314776583#314776583#0(0"0(0#0#79"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m8619395424#2283"    cd "/Users/g6media/Desktop/API LOL/G6PayModalExample"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/G6PayModalExample-generated-files.hmap" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/G6PayModalExample-own-target-headers.hmap" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/G6PayModalExample-all-target-headers.hmap" -iquote "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/G6PayModalExample-project-headers.hmap" "-F/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/include" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/DerivedSources/i386" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/DerivedSources" -include /var/folders/aZ/aZ7beZpHEbSPdW3gkJCf-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/G6PayModalExample_Prefix-eacbhnriniiasrcdtiecusvtcbis/G6PayModalExample_Prefix.pch -c "/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m" -o "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/Objects-normal/i386/PayViewController.o"0#
+
+CCompileC build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/Objects-normal/i386/PayViewController.o "/Users/g6media/Desktop/API LOL/G6PayModalExample/PayViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/Objects-normal/i386/main.o "/Users/g6media/Desktop/API LOL/G6PayModalExample/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s314776583.658076
+e314776583.718397
+r1
+xCompileC
+xbuild/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/Objects-normal/i386/main.o
+x/Users/g6media/Desktop/API LOL/G6PayModalExample/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/g6media/Desktop/API LOL/G6PayModalExample/main.m314776583#314776583#0(0"0(0#0#55"/Users/g6media/Desktop/API LOL/G6PayModalExample/main.m8619382464#2246"    cd "/Users/g6media/Desktop/API LOL/G6PayModalExample"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/G6PayModalExample-generated-files.hmap" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/G6PayModalExample-own-target-headers.hmap" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/G6PayModalExample-all-target-headers.hmap" -iquote "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/G6PayModalExample-project-headers.hmap" "-F/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/include" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/DerivedSources/i386" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/DerivedSources" -include /var/folders/aZ/aZ7beZpHEbSPdW3gkJCf-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/G6PayModalExample_Prefix-eacbhnriniiasrcdtiecusvtcbis/G6PayModalExample_Prefix.pch -c "/Users/g6media/Desktop/API LOL/G6PayModalExample/main.m" -o "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/g6media/Desktop/API LOL/G6PayModalExample/G6PayModalExampleViewController.xib"
+s314776581.819891
+e314776582.317970
+r1
+xCompileXIB
+x/Users/g6media/Desktop/API LOL/G6PayModalExample/G6PayModalExampleViewController.xib
+lSLF07#2@46"CompileXIB G6PayModalExampleViewController.xib314776581#314776582#0(0"0(0#0#84"/Users/g6media/Desktop/API LOL/G6PayModalExample/G6PayModalExampleViewController.xib8618139808#658"    cd "/Users/g6media/Desktop/API LOL/G6PayModalExample"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app/G6PayModalExampleViewController.nib" "/Users/g6media/Desktop/API LOL/G6PayModalExample/G6PayModalExampleViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/g6media/Desktop/API LOL/G6PayModalExample/MainWindow.xib"
+s314776581.819143
+e314776582.314954
+r1
+xCompileXIB
+x/Users/g6media/Desktop/API LOL/G6PayModalExample/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib314776581#314776582#0(0"0(0#0#63"/Users/g6media/Desktop/API LOL/G6PayModalExample/MainWindow.xib8618129696#616"    cd "/Users/g6media/Desktop/API LOL/G6PayModalExample"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app/MainWindow.nib" "/Users/g6media/Desktop/API LOL/G6PayModalExample/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app.dSYM" "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app/G6PayModalExample"
+s314776583.892308
+e314776583.911981
+r1
+xGenerateDSYMFile
+x/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app.dSYM
+x/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app/G6PayModalExample
+lSLF07#2@139"GenerateDSYMFile build/Debug-iphonesimulator/G6PayModalExample.app.dSYM build/Debug-iphonesimulator/G6PayModalExample.app/G6PayModalExample314776583#314776583#0(0"0(0#0#116"/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app/G6PayModalExample8618009792#449"    cd "/Users/g6media/Desktop/API LOL/G6PayModalExample"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app/G6PayModalExample" -o "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app.dSYM"0#
+
+CLd "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app/G6PayModalExample" normal i386
+s314776583.851278
+e314776583.892185
+r1
+xLd
+x/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app/G6PayModalExample
+xnormal
+xi386
+lSLF07#2@121"Link /Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app/G6PayModalExample314776583#314776583#0(0"0(0#0#0"8618976896#1010"    cd "/Users/g6media/Desktop/API LOL/G6PayModalExample"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator" "-F/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator" -filelist "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/Objects-normal/i386/G6PayModalExample.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app/G6PayModalExample"0#
+
+CProcessInfoPlistFile "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app/Info.plist" G6PayModalExample-Info.plist
+s314776581.777509
+e314776581.819052
+r1
+xProcessInfoPlistFile
+x/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app/Info.plist
+xG6PayModalExample-Info.plist
+lSLF07#2@36"Process G6PayModalExample-Info.plist314776581#314776581#0(0"0(0#0#77"/Users/g6media/Desktop/API LOL/G6PayModalExample/G6PayModalExample-Info.plist8616888160#545"    cd "/Users/g6media/Desktop/API LOL/G6PayModalExample"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility G6PayModalExample-Info.plist -genpkginfo "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app/Info.plist"0#
+
+CProcessPCH /var/folders/aZ/aZ7beZpHEbSPdW3gkJCf-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/G6PayModalExample_Prefix-eacbhnriniiasrcdtiecusvtcbis/G6PayModalExample_Prefix.pch.gch G6PayModalExample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s314776582.318095
+e314776583.657918
+r1
+xProcessPCH
+x/var/folders/aZ/aZ7beZpHEbSPdW3gkJCf-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/G6PayModalExample_Prefix-eacbhnriniiasrcdtiecusvtcbis/G6PayModalExample_Prefix.pch.gch
+xG6PayModalExample_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile G6PayModalExample_Prefix.pch314776582#314776583#0(0"0(0#0#77"/Users/g6media/Desktop/API LOL/G6PayModalExample/G6PayModalExample_Prefix.pch8617923008#2116"    cd "/Users/g6media/Desktop/API LOL/G6PayModalExample"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/G6PayModalExample-generated-files.hmap" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/G6PayModalExample-own-target-headers.hmap" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/G6PayModalExample-all-target-headers.hmap" -iquote "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/G6PayModalExample-project-headers.hmap" "-F/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/include" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/DerivedSources/i386" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6PayModalExample.build/Debug-iphonesimulator/G6PayModalExample.build/DerivedSources" -c "/Users/g6media/Desktop/API LOL/G6PayModalExample/G6PayModalExample_Prefix.pch" -o /var/folders/aZ/aZ7beZpHEbSPdW3gkJCf-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/G6PayModalExample_Prefix-eacbhnriniiasrcdtiecusvtcbis/G6PayModalExample_Prefix.pch.gch0#
+
+CTouch "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app"
+s314776583.912060
+e314776583.915947
+r1
+xTouch
+x/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app
+lSLF07#2@104"Touch /Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app314776583#314776583#0(0"0(0#0#0"8617337632#312"    cd "/Users/g6media/Desktop/API LOL/G6PayModalExample"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6PayModalExample.app"0#
+
