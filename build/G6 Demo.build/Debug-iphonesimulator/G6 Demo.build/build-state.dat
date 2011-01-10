@@ -1,7 +1,7 @@
 TG6 Demo
 v7
 r0
-t316346608.520974
+t316386957.676823
 cCheck dependencies
 cProcessInfoPlistFile "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app/Info.plist" "G6 Demo-Info.plist"
 cCompileXIB "/Users/g6media/Desktop/API LOL/G6PayModalExample/MainWindow.xib"
@@ -19,7 +19,7 @@ cCompileC "build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-norma
 cCompileC "build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/G6PayModalExampleAppDelegate.o" "/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC "build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/G6PayModalExampleViewController.o" "/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC "build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/PayViewController.o" "/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/G6Ads.o" "/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/G6Pay.o" "/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Pay.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 cLd "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app/G6 Demo" normal i386
 cGenerateDSYMFile "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app.dSYM" "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app/G6 Demo"
 cTouch "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app"
@@ -65,16 +65,29 @@ t1242687521
 s9223
 
 N/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.h
-c000000004D16F22400000000000002DB
-t1293349412
-s731
+c000000004D2ADF4900000000000002DC
+t1294655305
+s732
 i<Foundation/Foundation.h>
 i<CommonCrypto/CommonDigest.h>
 
 N/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m
-c000000004D2AD5EE000000000000252B
-t1294652910
-s9515
+c000000004D2ADC4C00000000000024BB
+t1294654540
+s9403
+i"G6Ads.h"
+
+N/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Pay.h
+c000000004D2B6BDA00000000000002DC
+t1294691290
+s732
+i<Foundation/Foundation.h>
+i<CommonCrypto/CommonDigest.h>
+
+N/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Pay.m
+c000000004D2B6BDA00000000000024BB
+t1294691290
+s9403
 i"G6Ads.h"
 
 N/Users/g6media/Desktop/API LOL/G6PayModalExample/../../Default.png
@@ -108,38 +121,38 @@ t1292993685
 s1066
 
 N/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m
-c000000004D29958200000000000019B4
-t1294570882
-s6580
+c000000004D2B77020000000000001CA5
+t1294694146
+s7333
 i"G6PayModalExampleViewController.h"
 i"PayViewController.h"
 i<QuartzCore/QuartzCore.h>
 
 N/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleAppDelegate.h
-c000000004D12E25B0000000000000220
-t1293083227
-s544
+c000000004D2ADF870000000000000214
+t1294655367
+s532
 i<UIKit/UIKit.h>
 
 N/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleAppDelegate.m
-c000000004D136FA80000000000000AC2
-t1293119400
-s2754
+c000000004D2ADF870000000000000AB6
+t1294655367
+s2742
 i"G6PayModalExampleAppDelegate.h"
 i"G6PayModalExampleViewController.h"
 
 N/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.h
-c000000004D2ACAEA00000000000002F7
-t1294650090
-s759
+c000000004D2B6BDA0000000000000316
+t1294691290
+s790
 i<UIKit/UIKit.h>
 i"PayViewController.h"
 
 N/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m
-c000000004D2AD93A00000000000022E7
-t1294653754
-s8935
-i"G6Ads.h"
+c000000004D2B76300000000000002625
+t1294693936
+s9765
+i"G6Pay.h"
 i"G6PayModalExampleViewController.h"
 
 N/Users/g6media/Desktop/API LOL/G6PayModalExample/G6 Demo_Prefix.pch
@@ -160,18 +173,18 @@ t1293083227
 s20129
 
 N/Users/g6media/Desktop/API LOL/G6PayModalExample/PayViewController.h
-c000000004D2994EA00000000000001A5
-t1294570730
-s421
+c000000004D2B6BDA0000000000000199
+t1294691290
+s409
 i<UIKit/UIKit.h>
-i"G6Ads.h"
+i"G6Pay.h"
 
 N/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app
-t1294653759
+t1294694157
 s442
 
 N/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app.dSYM
-t1294653759
+t1294694157
 s102
 
 N/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app/Default.png
@@ -179,8 +192,8 @@ t1293791862
 s2356
 
 N/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app/G6 Demo
-t1294653759
-s60836
+t1294694157
+s61120
 
 N/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app/G6PayModalExampleViewController.nib
 t1293791862
@@ -219,25 +232,29 @@ t1293791862
 s1066
 
 N/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/G6 Demo.LinkFileList
-c000000004D1DB27600000000000002D5
-t1293791862
+c000000004D2B6BDA00000000000002D5
+t1294691290
 s725
 
 N/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/G6Ads.o
-t1294653066
+t1294655368
+s39760
+
+N/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/G6Pay.o
+t1294691291
 s39760
 
 N/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/G6PayModalExampleAppDelegate.o
-t1294650182
+t1294691290
 s52720
 
 N/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/G6PayModalExampleViewController.o
-t1294653759
-s77832
+t1294693975
+s80252
 
 N/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/PayViewController.o
-t1294650182
-s65564
+t1294694157
+s66192
 
 N/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/main.o
 t1293791866
@@ -250,9 +267,9 @@ s376
 i<UIKit/UIKit.h>
 
 N/Users/g6media/Downloads/chapter4/UITest_WebView/Classes/G6Ads.h
-c000000004D16F22400000000000002DB
-t1293349412
-s731
+c000000004D2ADF4900000000000002DC
+t1294655305
+s732
 i<Foundation/Foundation.h>
 i<CommonCrypto/CommonDigest.h>
 
@@ -267,11 +284,11 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies316346608#316346608#0(312"[WARN]Warning: Multiple build commands for output file /Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app/Default.png[WARN]Warning: Multiple build commands for output file /Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app/Default.png2(22@149"Warning: Multiple build commands for output file /Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app/Default.png316346608#18446744073709551615#0#0(1@0"0(22@149"Warning: Multiple build commands for output file /Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app/Default.png316346608#18446744073709551615#0#0(1@0"0(0#1#0"8618779072#0"0#
+lSLF07#2@18"Check dependencies316386957#316386957#0(312"[WARN]Warning: Multiple build commands for output file /Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app/Default.png[WARN]Warning: Multiple build commands for output file /Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app/Default.png2(22@149"Warning: Multiple build commands for output file /Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app/Default.png316386957#18446744073709551615#0#0(1@0"0(22@149"Warning: Multiple build commands for output file /Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app/Default.png316386957#18446744073709551615#0#0(1@0"0(0#1#0"8617627328#0"0#
 
 CCompileC "build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/G6Ads.o" "/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s316345866.385944
-e316345866.613038
+s316348168.001244
+e316348168.165789
 r1
 xCompileC
 xbuild/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/G6Ads.o
@@ -287,11 +304,31 @@ o/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UI
 o/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m:29: warning: '...' as arguments.)
 o/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m: In function '-[G6Ads displayOffers:]':
 o/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m:40: warning: 'G6Ads' may not respond to '-hashGen:'
-lSLF07#2@115"Compile /Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m316345866#316345866#0(1085"/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m: In function '-[G6Ads track]':/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m:29: warning: 'G6Ads' may not respond to '-payPerInstall:'/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m:29: warning: (Messages without a matching method signature/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m:29: warning: will be assumed to return 'id' and accept/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m:29: warning: '...' as arguments.)/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m: In function '-[G6Ads displayOffers:]':/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m:40: warning: 'G6Ads' may not respond to '-hashGen:'3(22@44"'G6Ads' may not respond to '-payPerInstall:'316345866#139#166#0(6@107"/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m316345710#29#0#29#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)316345866#305#167#0(6@107"/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m316345710#29#0#29#0#0"0(22@38"'G6Ads' may not respond to '-hashGen:'316345866#925#160#0(6@107"/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m316345710#40#0#40#0#26"'*' may not respond to '*'0(0#0#107"/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m8618844160#2101"    cd "/Users/g6media/Desktop/API LOL/G6PayModalExample"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-generated-files.hmap" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-own-target-headers.hmap" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-all-target-headers.hmap" -iquote "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-project-headers.hmap" "-F/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/include" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/DerivedSources/i386" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/DerivedSources" -include "/var/folders/aZ/aZ7beZpHEbSPdW3gkJCf-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/G6 Demo_Prefix-dgmpfqardscriselzeisvxruwrks/G6 Demo_Prefix.pch" -c "/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m" -o "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/G6Ads.o"0#
+lSLF07#2@115"Compile /Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m316348168#316348168#0(1085"/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m: In function '-[G6Ads track]':/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m:29: warning: 'G6Ads' may not respond to '-payPerInstall:'/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m:29: warning: (Messages without a matching method signature/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m:29: warning: will be assumed to return 'id' and accept/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m:29: warning: '...' as arguments.)/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m: In function '-[G6Ads displayOffers:]':/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m:40: warning: 'G6Ads' may not respond to '-hashGen:'3(22@44"'G6Ads' may not respond to '-payPerInstall:'316348168#139#166#0(6@107"/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m316347340#29#0#29#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)316348168#305#167#0(6@107"/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m316347340#29#0#29#0#0"0(22@38"'G6Ads' may not respond to '-hashGen:'316348168#925#160#0(6@107"/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m316347340#40#0#40#0#26"'*' may not respond to '*'0(0#0#107"/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m8619129760#2101"    cd "/Users/g6media/Desktop/API LOL/G6PayModalExample"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-generated-files.hmap" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-own-target-headers.hmap" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-all-target-headers.hmap" -iquote "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-project-headers.hmap" "-F/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/include" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/DerivedSources/i386" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/DerivedSources" -include "/var/folders/aZ/aZ7beZpHEbSPdW3gkJCf-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/G6 Demo_Prefix-dgmpfqardscriselzeisvxruwrks/G6 Demo_Prefix.pch" -c "/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m" -o "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/G6Ads.o"0#
+
+CCompileC "build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/G6Pay.o" "/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Pay.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s316384090.875661
+e316384091.094841
+r1
+xCompileC
+xbuild/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/G6Pay.o
+x/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Pay.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Pay.m: In function '-[G6Pay track]':
+o/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Pay.m:29: warning: 'G6Pay' may not respond to '-payPerInstall:'
+o/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Pay.m:29: warning: (Messages without a matching method signature
+o/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Pay.m:29: warning: will be assumed to return 'id' and accept
+o/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Pay.m:29: warning: '...' as arguments.)
+o/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Pay.m: In function '-[G6Pay displayOffers:]':
+o/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Pay.m:40: warning: 'G6Pay' may not respond to '-hashGen:'
+lSLF07#2@115"Compile /Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Pay.m316384090#316384091#0(1085"/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Pay.m: In function '-[G6Pay track]':/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Pay.m:29: warning: 'G6Pay' may not respond to '-payPerInstall:'/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Pay.m:29: warning: (Messages without a matching method signature/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Pay.m:29: warning: will be assumed to return 'id' and accept/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Pay.m:29: warning: '...' as arguments.)/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Pay.m: In function '-[G6Pay displayOffers:]':/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Pay.m:40: warning: 'G6Pay' may not respond to '-hashGen:'3(22@44"'G6Pay' may not respond to '-payPerInstall:'316384090#139#166#0(6@107"/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Pay.m316384090#29#0#29#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)316384090#305#167#0(6@107"/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Pay.m316384090#29#0#29#0#0"0(22@38"'G6Pay' may not respond to '-hashGen:'316384090#925#160#0(6@107"/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Pay.m316384090#40#0#40#0#26"'*' may not respond to '*'0(0#0#107"/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Pay.m8617351040#2101"    cd "/Users/g6media/Desktop/API LOL/G6PayModalExample"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-generated-files.hmap" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-own-target-headers.hmap" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-all-target-headers.hmap" -iquote "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-project-headers.hmap" "-F/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/include" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/DerivedSources/i386" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/DerivedSources" -include "/var/folders/aZ/aZ7beZpHEbSPdW3gkJCf-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/G6 Demo_Prefix-dgmpfqardscriselzeisvxruwrks/G6 Demo_Prefix.pch" -c "/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Pay.m" -o "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/G6Pay.o"0#
 
 CCompileC "build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/G6PayModalExampleAppDelegate.o" "/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s316342981.934035
-e316342982.228759
+s316384090.581989
+e316384090.779730
 r1
 xCompileC
 xbuild/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/G6PayModalExampleAppDelegate.o
@@ -300,11 +337,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@95"Compile /Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleAppDelegate.m316342981#316342982#0(0"0(0#0#87"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleAppDelegate.m8609471168#2104"    cd "/Users/g6media/Desktop/API LOL/G6PayModalExample"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-generated-files.hmap" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-own-target-headers.hmap" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-all-target-headers.hmap" -iquote "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-project-headers.hmap" "-F/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/include" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/DerivedSources/i386" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/DerivedSources" -include "/var/folders/aZ/aZ7beZpHEbSPdW3gkJCf-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/G6 Demo_Prefix-dgmpfqardscriselzeisvxruwrks/G6 Demo_Prefix.pch" -c "/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleAppDelegate.m" -o "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/G6PayModalExampleAppDelegate.o"0#
+lSLF07#2@95"Compile /Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleAppDelegate.m316384090#316384090#0(0"0(0#0#87"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleAppDelegate.m8621011616#2104"    cd "/Users/g6media/Desktop/API LOL/G6PayModalExample"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-generated-files.hmap" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-own-target-headers.hmap" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-all-target-headers.hmap" -iquote "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-project-headers.hmap" "-F/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/include" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/DerivedSources/i386" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/DerivedSources" -include "/var/folders/aZ/aZ7beZpHEbSPdW3gkJCf-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/G6 Demo_Prefix-dgmpfqardscriselzeisvxruwrks/G6 Demo_Prefix.pch" -c "/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleAppDelegate.m" -o "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/G6PayModalExampleAppDelegate.o"0#
 
 CCompileC "build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/G6PayModalExampleViewController.o" "/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s316346559.097407
-e316346559.291459
+s316386775.589973
+e316386775.807326
 r1
 xCompileC
 xbuild/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/G6PayModalExampleViewController.o
@@ -314,26 +351,26 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m: In function '-[G6PayModalExampleViewController viewDidLoad]':
-o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:135: warning: 'G6PayModalExampleViewController' may not respond to '-checkBalance'
-o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:135: warning: (Messages without a matching method signature
-o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:135: warning: will be assumed to return 'id' and accept
-o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:135: warning: '...' as arguments.)
+o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:133: warning: 'G6PayModalExampleViewController' may not respond to '-checkBalance'
+o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:133: warning: (Messages without a matching method signature
+o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:133: warning: will be assumed to return 'id' and accept
+o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:133: warning: '...' as arguments.)
 o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m: In function '-[G6PayModalExampleViewController addFifty]':
-o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:148: warning: 'G6Ads' may not respond to '-creditUser::'
+o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:146: warning: 'G6Pay' may not respond to '-creditUser::'
 o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m: In function '-[G6PayModalExampleViewController subtractFifty]':
-o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:157: warning: 'G6Ads' may not respond to '-debitUser::'
+o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:155: warning: 'G6Pay' may not respond to '-debitUser::'
 o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m: In function '-[G6PayModalExampleViewController checkBalance]':
-o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:170: warning: 'G6Ads' may not respond to '-checkUserBalance:'
+o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:162: warning: 'G6Pay' may not respond to '-checkUserBalance:'
 o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m: In function '-[G6PayModalExampleViewController doesUserHaveEnoughCurrency:]':
-o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:205: warning: 'G6Ads' may not respond to '-debitUser::'
-o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:208: warning: 'G6PayModalExampleViewController' may not respond to '-fadeOutLock:'
+o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:196: warning: 'G6Pay' may not respond to '-debitUser::'
+o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:197: warning: 'G6PayModalExampleViewController' may not respond to '-fadeOutLock:'
 o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m: In function '-[G6PayModalExampleViewController alertView:clickedButtonAtIndex:]':
-o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:239: warning: 'G6PayModalExampleViewController' may not respond to '-buyGift'
-lSLF07#2@98"Compile /Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m316346559#316346559#0(2496"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m: In function '-[G6PayModalExampleViewController viewDidLoad]':/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:135: warning: 'G6PayModalExampleViewController' may not respond to '-checkBalance'/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:135: warning: (Messages without a matching method signature/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:135: warning: will be assumed to return 'id' and accept/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:135: warning: '...' as arguments.)/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m: In function '-[G6PayModalExampleViewController addFifty]':/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:148: warning: 'G6Ads' may not respond to '-creditUser::'/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m: In function '-[G6PayModalExampleViewController subtractFifty]':/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:157: warning: 'G6Ads' may not respond to '-debitUser::'/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m: In function '-[G6PayModalExampleViewController checkBalance]':/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:170: warning: 'G6Ads' may not respond to '-checkUserBalance:'/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m: In function '-[G6PayModalExampleViewController doesUserHaveEnoughCurrency:]':/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:205: warning: 'G6Ads' may not respond to '-debitUser::'/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:208: warning: 'G6PayModalExampleViewController' may not respond to '-fadeOutLock:'/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m: In function '-[G6PayModalExampleViewController alertView:clickedButtonAtIndex:]':/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:239: warning: 'G6PayModalExampleViewController' may not respond to '-buyGift'8(22@68"'G6PayModalExampleViewController' may not respond to '-checkBalance'316346559#154#174#0(6@90"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m316346554#135#0#135#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)316346559#328#151#0(6@90"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m316346554#135#0#135#0#0"0(22@42"'G6Ads' may not respond to '-creditUser::'316346559#903#148#0(6@90"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m316346554#148#0#148#0#26"'*' may not respond to '*'0(22@41"'G6Ads' may not respond to '-debitUser::'316346559#1207#147#0(6@90"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m316346554#157#0#157#0#26"'*' may not respond to '*'0(22@47"'G6Ads' may not respond to '-checkUserBalance:'316346559#1509#153#0(6@90"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m316346554#170#0#170#0#26"'*' may not respond to '*'0(22@41"'G6Ads' may not respond to '-debitUser::'316346559#1832#147#0(6@90"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m316346554#205#0#205#0#26"'*' may not respond to '*'0(22@68"'G6PayModalExampleViewController' may not respond to '-fadeOutLock:'316346559#1979#174#0(6@90"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m316346554#208#0#208#0#26"'*' may not respond to '*'0(22@63"'G6PayModalExampleViewController' may not respond to '-buyGift'316346559#2327#169#0(6@90"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m316346554#239#0#239#0#26"'*' may not respond to '*'0(0#0#90"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m8620646304#2110"    cd "/Users/g6media/Desktop/API LOL/G6PayModalExample"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-generated-files.hmap" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-own-target-headers.hmap" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-all-target-headers.hmap" -iquote "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-project-headers.hmap" "-F/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/include" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/DerivedSources/i386" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/DerivedSources" -include "/var/folders/aZ/aZ7beZpHEbSPdW3gkJCf-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/G6 Demo_Prefix-dgmpfqardscriselzeisvxruwrks/G6 Demo_Prefix.pch" -c "/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m" -o "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/G6PayModalExampleViewController.o"0#
+o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:235: warning: 'G6PayModalExampleViewController' may not respond to '-buyGift'
+lSLF07#2@98"Compile /Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m316386775#316386775#0(2496"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m: In function '-[G6PayModalExampleViewController viewDidLoad]':/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:133: warning: 'G6PayModalExampleViewController' may not respond to '-checkBalance'/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:133: warning: (Messages without a matching method signature/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:133: warning: will be assumed to return 'id' and accept/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:133: warning: '...' as arguments.)/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m: In function '-[G6PayModalExampleViewController addFifty]':/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:146: warning: 'G6Pay' may not respond to '-creditUser::'/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m: In function '-[G6PayModalExampleViewController subtractFifty]':/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:155: warning: 'G6Pay' may not respond to '-debitUser::'/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m: In function '-[G6PayModalExampleViewController checkBalance]':/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:162: warning: 'G6Pay' may not respond to '-checkUserBalance:'/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m: In function '-[G6PayModalExampleViewController doesUserHaveEnoughCurrency:]':/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:196: warning: 'G6Pay' may not respond to '-debitUser::'/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:197: warning: 'G6PayModalExampleViewController' may not respond to '-fadeOutLock:'/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m: In function '-[G6PayModalExampleViewController alertView:clickedButtonAtIndex:]':/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m:235: warning: 'G6PayModalExampleViewController' may not respond to '-buyGift'8(22@68"'G6PayModalExampleViewController' may not respond to '-checkBalance'316386775#154#174#0(6@90"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m316386736#133#0#133#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)316386775#328#151#0(6@90"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m316386736#133#0#133#0#0"0(22@42"'G6Pay' may not respond to '-creditUser::'316386775#903#148#0(6@90"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m316386736#146#0#146#0#26"'*' may not respond to '*'0(22@41"'G6Pay' may not respond to '-debitUser::'316386775#1207#147#0(6@90"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m316386736#155#0#155#0#26"'*' may not respond to '*'0(22@47"'G6Pay' may not respond to '-checkUserBalance:'316386775#1509#153#0(6@90"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m316386736#162#0#162#0#26"'*' may not respond to '*'0(22@41"'G6Pay' may not respond to '-debitUser::'316386775#1832#147#0(6@90"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m316386736#196#0#196#0#26"'*' may not respond to '*'0(22@68"'G6PayModalExampleViewController' may not respond to '-fadeOutLock:'316386775#1979#174#0(6@90"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m316386736#197#0#197#0#26"'*' may not respond to '*'0(22@63"'G6PayModalExampleViewController' may not respond to '-buyGift'316386775#2327#169#0(6@90"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m316386736#235#0#235#0#26"'*' may not respond to '*'0(0#0#90"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m8618966848#2110"    cd "/Users/g6media/Desktop/API LOL/G6PayModalExample"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-generated-files.hmap" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-own-target-headers.hmap" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-all-target-headers.hmap" -iquote "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-project-headers.hmap" "-F/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/include" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/DerivedSources/i386" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/DerivedSources" -include "/var/folders/aZ/aZ7beZpHEbSPdW3gkJCf-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/G6 Demo_Prefix-dgmpfqardscriselzeisvxruwrks/G6 Demo_Prefix.pch" -c "/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleViewController.m" -o "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/G6PayModalExampleViewController.o"0#
 
 CCompileC "build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/PayViewController.o" "/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s316342982.228866
-e316342982.746474
+s316386957.442904
+e316386957.613802
 r1
 xCompileC
 xbuild/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/PayViewController.o
@@ -343,11 +380,11 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m: In function '-[PayViewController checkCompletionTimerAction:]':
-o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m:135: warning: 'G6Ads' may not respond to '-checkOffer:'
-o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m:135: warning: (Messages without a matching method signature
-o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m:135: warning: will be assumed to return 'id' and accept
-o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m:135: warning: '...' as arguments.)
-lSLF07#2@87"Compile /Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m316342982#316342982#0(672"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m: In function '-[PayViewController checkCompletionTimerAction:]':/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m:135: warning: 'G6Ads' may not respond to '-checkOffer:'/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m:135: warning: (Messages without a matching method signature/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m:135: warning: will be assumed to return 'id' and accept/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m:135: warning: '...' as arguments.)2(22@41"'G6Ads' may not respond to '-checkOffer:'316342982#145#136#0(6@79"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m316263682#135#0#135#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)316342982#281#140#0(6@79"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m316263682#135#0#135#0#0"0(0#0#79"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m8618985696#2085"    cd "/Users/g6media/Desktop/API LOL/G6PayModalExample"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-generated-files.hmap" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-own-target-headers.hmap" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-all-target-headers.hmap" -iquote "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-project-headers.hmap" "-F/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/include" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/DerivedSources/i386" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/DerivedSources" -include "/var/folders/aZ/aZ7beZpHEbSPdW3gkJCf-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/G6 Demo_Prefix-dgmpfqardscriselzeisvxruwrks/G6 Demo_Prefix.pch" -c "/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m" -o "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/PayViewController.o"0#
+o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m:136: warning: 'G6Pay' may not respond to '-checkOffer:'
+o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m:136: warning: (Messages without a matching method signature
+o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m:136: warning: will be assumed to return 'id' and accept
+o/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m:136: warning: '...' as arguments.)
+lSLF07#2@87"Compile /Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m316386957#316386957#0(672"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m: In function '-[PayViewController checkCompletionTimerAction:]':/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m:136: warning: 'G6Pay' may not respond to '-checkOffer:'/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m:136: warning: (Messages without a matching method signature/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m:136: warning: will be assumed to return 'id' and accept/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m:136: warning: '...' as arguments.)2(22@41"'G6Pay' may not respond to '-checkOffer:'316386957#145#136#0(6@79"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m316386946#136#0#136#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)316386957#281#140#0(6@79"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m316386946#136#0#136#0#0"0(0#0#79"/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m8620538048#2085"    cd "/Users/g6media/Desktop/API LOL/G6PayModalExample"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-generated-files.hmap" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-own-target-headers.hmap" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-all-target-headers.hmap" -iquote "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-project-headers.hmap" "-F/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/include" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/DerivedSources/i386" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/DerivedSources" -include "/var/folders/aZ/aZ7beZpHEbSPdW3gkJCf-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/G6 Demo_Prefix-dgmpfqardscriselzeisvxruwrks/G6 Demo_Prefix.pch" -c "/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/../PayViewController.m" -o "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/PayViewController.o"0#
 
 CCompileC "build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/main.o" "/Users/g6media/Desktop/API LOL/G6PayModalExample/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s315484665.988199
@@ -433,23 +470,23 @@ x../../x.png
 lSLF07#2@16"Copy ../../x.png315484662#315484662#0(0"0(0#0#60"/Users/g6media/Desktop/API LOL/G6PayModalExample/../../x.png8608864512#505"    cd "/Users/g6media/Desktop/API LOL/G6PayModalExample"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/g6media/Desktop/API LOL/G6PayModalExample/../../x.png" "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app"0#
 
 CGenerateDSYMFile "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app.dSYM" "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app/G6 Demo"
-s316346559.322437
-e316346559.346108
+s316386957.651699
+e316386957.674068
 r1
 xGenerateDSYMFile
 x/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app.dSYM
 x/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app/G6 Demo
-lSLF07#2@113"GenerateDSYMFile "build/Debug-iphonesimulator/G6 Demo.app.dSYM" "build/Debug-iphonesimulator/G6 Demo.app/G6 Demo"316346559#316346559#0(0"0(0#0#96"/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app/G6 Demo8617654912#419"    cd "/Users/g6media/Desktop/API LOL/G6PayModalExample"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app/G6 Demo" -o "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app.dSYM"0#
+lSLF07#2@113"GenerateDSYMFile "build/Debug-iphonesimulator/G6 Demo.app.dSYM" "build/Debug-iphonesimulator/G6 Demo.app/G6 Demo"316386957#316386957#0(0"0(0#0#96"/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app/G6 Demo8617552224#419"    cd "/Users/g6media/Desktop/API LOL/G6PayModalExample"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app/G6 Demo" -o "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app.dSYM"0#
 
 CLd "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app/G6 Demo" normal i386
-s316346559.291551
-e316346559.322325
+s316386957.613898
+e316386957.651594
 r1
 xLd
 x/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app/G6 Demo
 xnormal
 xi386
-lSLF07#2@101"Link /Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app/G6 Demo316346559#316346559#0(0"0(0#0#0"8617930848#960"    cd "/Users/g6media/Desktop/API LOL/G6PayModalExample"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator" "-F/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator" -filelist "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/G6 Demo.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app/G6 Demo"0#
+lSLF07#2@101"Link /Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app/G6 Demo316386957#316386957#0(0"0(0#0#0"8618986144#960"    cd "/Users/g6media/Desktop/API LOL/G6PayModalExample"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator" "-F/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator" -filelist "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/G6 Demo.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app/G6 Demo"0#
 
 CProcessInfoPlistFile "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app/Info.plist" "G6 Demo-Info.plist"
 s315484662.109966
@@ -474,10 +511,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@29"Precompile G6 Demo_Prefix.pch315484662#315484665#0(0"0(0#0#67"/Users/g6media/Desktop/API LOL/G6PayModalExample/G6 Demo_Prefix.pch8619479264#1928"    cd "/Users/g6media/Desktop/API LOL/G6PayModalExample"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-generated-files.hmap" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-own-target-headers.hmap" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-all-target-headers.hmap" -iquote "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/G6 Demo-project-headers.hmap" "-F/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/include" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/DerivedSources/i386" "-I/Users/g6media/Desktop/API LOL/G6PayModalExample/build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/DerivedSources" -c "/Users/g6media/Desktop/API LOL/G6PayModalExample/G6 Demo_Prefix.pch" -o "/var/folders/aZ/aZ7beZpHEbSPdW3gkJCf-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/G6 Demo_Prefix-dgmpfqardscriselzeisvxruwrks/G6 Demo_Prefix.pch.gch"0#
 
 CTouch "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app"
-s316346559.346197
-e316346559.348841
+s316386957.674159
+e316386957.676780
 r1
 xTouch
 x/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app
-lSLF07#2@94"Touch /Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app316346559#316346559#0(0"0(0#0#0"8598375776#302"    cd "/Users/g6media/Desktop/API LOL/G6PayModalExample"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app"0#
+lSLF07#2@94"Touch /Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app316386957#316386957#0(0"0(0#0#0"8617103296#302"    cd "/Users/g6media/Desktop/API LOL/G6PayModalExample"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app"0#
 

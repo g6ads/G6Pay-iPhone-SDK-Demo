@@ -21,7 +21,7 @@
 		7795D61512CB83B200AB2254 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7795D61412CB83B200AB2254 /* Default.png */; };
 		7795D63712CB85B800AB2254 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7795D63612CB85B800AB2254 /* icon.png */; };
 		7795EA4912C31A1E0000A4E7 /* PayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7795EA4812C31A1E0000A4E7 /* PayViewController.m */; };
-		7795EA4E12C31CF80000A4E7 /* G6Ads.m in Sources */ = {isa = PBXBuildFile; fileRef = 7795EA4D12C31CF80000A4E7 /* G6Ads.m */; };
+		7795EA4E12C31CF80000A4E7 /* G6Pay.m in Sources */ = {isa = PBXBuildFile; fileRef = 7795EA4D12C31CF80000A4E7 /* G6Pay.m */; };
 		7795EA5412C31E4B0000A4E7 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7795EA5312C31E4B0000A4E7 /* x.png */; };
 		77FD040512C74E9500085B8B /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FD040412C74E9500085B8B /* lock.png */; };
 		77FD048912C758C000085B8B /* win.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FD048812C758C000085B8B /* win.png */; };
@@ -47,8 +47,8 @@
 		7795D63612CB85B800AB2254 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../icon.png; sourceTree = SOURCE_ROOT; };
 		7795EA4712C31A1E0000A4E7 /* PayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PayViewController.h; path = ../PayViewController.h; sourceTree = "<group>"; };
 		7795EA4812C31A1E0000A4E7 /* PayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PayViewController.m; path = ../PayViewController.m; sourceTree = "<group>"; };
-		7795EA4C12C31CF80000A4E7 /* G6Ads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = G6Ads.h; path = ../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.h; sourceTree = SOURCE_ROOT; };
-		7795EA4D12C31CF80000A4E7 /* G6Ads.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = G6Ads.m; path = ../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m; sourceTree = SOURCE_ROOT; };
+		7795EA4C12C31CF80000A4E7 /* G6Pay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = G6Pay.h; path = ../../../Downloads/chapter4/UITest_WebView/Classes/G6Pay.h; sourceTree = SOURCE_ROOT; };
+		7795EA4D12C31CF80000A4E7 /* G6Pay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = G6Pay.m; path = ../../../Downloads/chapter4/UITest_WebView/Classes/G6Pay.m; sourceTree = SOURCE_ROOT; };
 		7795EA5312C31E4B0000A4E7 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = x.png; path = ../../x.png; sourceTree = SOURCE_ROOT; };
 		77FD040412C74E9500085B8B /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lock.png; path = ../../lock.png; sourceTree = SOURCE_ROOT; };
 		77FD048812C758C000085B8B /* win.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win.png; path = ../../win.png; sourceTree = SOURCE_ROOT; };
@@ -72,8 +72,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7795EA4C12C31CF80000A4E7 /* G6Ads.h */,
-				7795EA4D12C31CF80000A4E7 /* G6Ads.m */,
+				7795EA4C12C31CF80000A4E7 /* G6Pay.h */,
+				7795EA4D12C31CF80000A4E7 /* G6Pay.m */,
 				7795EA4712C31A1E0000A4E7 /* PayViewController.h */,
 				7795EA4812C31A1E0000A4E7 /* PayViewController.m */,
 				1D3623240D0F684500981E51 /* G6PayModalExampleAppDelegate.h */,
@@ -214,7 +214,7 @@
 				1D3623260D0F684500981E51 /* G6PayModalExampleAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* G6PayModalExampleViewController.m in Sources */,
 				7795EA4912C31A1E0000A4E7 /* PayViewController.m in Sources */,
-				7795EA4E12C31CF80000A4E7 /* G6Ads.m in Sources */,
+				7795EA4E12C31CF80000A4E7 /* G6Pay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,15 +2,15 @@
 //  G6PayModalExampleViewController.h
 //  G6PayModalExample
 //
-//  Created by Alexander Spasov on 12/23/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Created by Rangel Spasov on 12/23/10.
+//  Copyright 2010 G6 Media. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import "PayViewController.h"
 
 @interface G6PayModalExampleViewController : UIViewController {
-	G6Ads *g6Library;
+	G6Pay *g6Library;
 	PayViewController *pay;
 	UIActivityIndicatorView *activity;
 	UIImageView *lockView;
@@ -18,14 +18,16 @@
 	NSString *userId;
 	UIButton *button;
 	BOOL rePromptBool;
+
 }
 
 @property(retain) UIActivityIndicatorView *activity;
-@property(retain) G6Ads *g6Library;
+@property(retain) G6Pay *g6Library;
 @property(retain) UIImageView *lockView;
 @property(retain) UIImageView *winView;
 @property(retain) UIButton *button;
 @property(retain) NSString *userId;
+@property(retain) PayViewController *pay;
 @property BOOL rePromptBool;
 
 @end

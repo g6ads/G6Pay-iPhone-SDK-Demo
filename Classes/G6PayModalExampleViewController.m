@@ -2,10 +2,10 @@
 //  G6PayModalExampleViewController.m
 //  G6PayModalExample
 //
-//  Created by Alexander Spasov on 12/23/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Created by Rangel Spasov on 12/23/10.
+//  Copyright 2010 G6 Media. All rights reserved.
 //
-#import "G6Ads.h"
+#import "G6Pay.h"
 #import "G6PayModalExampleViewController.h"
 
 
@@ -14,7 +14,7 @@ UITextView *virtualCurrencyBalanceView;
 
 @implementation G6PayModalExampleViewController
 
-@synthesize activity, g6Library, lockView, winView, button, rePromptBool, userId;
+@synthesize activity, g6Library, lockView, winView, button, rePromptBool, userId, pay;
 
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.
@@ -24,7 +24,7 @@ UITextView *virtualCurrencyBalanceView;
     }
     return self;
 }
-*/
+*/		
 
 /*
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
@@ -41,9 +41,9 @@ UITextView *virtualCurrencyBalanceView;
 	
 	self.rePromptBool = NO;
 	
-	//instantiates the G6Ads class, creates a valid URL and loads it into the UIWebView element created in the previous step
+	//instantiates the G6Pay class, creates a valid URL and loads it into the UIWebView element created in the previous step
 	
-	self.g6Library = [[G6Ads alloc] init];
+	self.g6Library = [[G6Pay alloc] init];
 	self.g6Library.requestsAllowed = TRUE;
 
 	
@@ -52,9 +52,10 @@ UITextView *virtualCurrencyBalanceView;
 	virtualCurrencyBalanceView = [[UITextView alloc] initWithFrame:currencyBalanceFrame];
 	[virtualCurrencyBalanceView setEditable:NO];
 	
+	
 	//set  background color
     self.view.backgroundColor = [UIColor whiteColor];
-	pay = [[PayViewController alloc] init];
+	
 	
 	//add virtual gift image
 	UIImage *gift = [UIImage imageNamed:@"gift.jpg"]; 
@@ -65,7 +66,7 @@ UITextView *virtualCurrencyBalanceView;
 	CGRect newFrame = CGRectMake (80, 120, giftViewSize.width, giftViewSize.height);
 	[giftView setFrame:newFrame];
 	[self.view addSubview:giftView];
-	
+	[giftView release];
 	
 	//add lock image
 	UIImage *lock = [UIImage imageNamed:@"lock.png"]; 
@@ -102,9 +103,6 @@ UITextView *virtualCurrencyBalanceView;
 	//add the button to the view
 	[self.view addSubview:button];
 	
-	
-	
-	
 	//create the Check My Balance button
 	UIButton *addFiftyButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
 	//set the position of the button
@@ -140,41 +138,37 @@ UITextView *virtualCurrencyBalanceView;
 	[self.view addSubview:self.activity];
 	
 }
-
+//method that adds 50 points to the user's balance
 -(void) addFifty {
 	//start spinner
 	[self.activity startAnimating];
-	
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateBalance:) name:@"balanceReceived" object:nil];
 	[self.g6Library creditUser:userId:@"50.00"];
 	
 	
 }
-
+//method that subtracts 50 points to the user's balance
 -(void)subtractFifty {
 	//start spinner
 	[self.activity startAnimating];
-	
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateBalance:) name:@"balanceReceived" object:nil];
 	[self.g6Library debitUser:userId:@"50.00"];
 }
 
 
-
+//checks user's balance
 - (void) checkBalance {
 	
-	
-	
-	
-	//add observer to look for a response from the server
-	
-
 	[self.g6Library checkUserBalance:userId];
 
 	
-	//[g6LibraryInstance release];
-	
 }
 
+//receives the notification when the user balance check is completed and received back from the server (receives notification from G6Pay
 -(void) updateBalance:(NSNotification *)balance  {
+	
+	
+	[[NSNotificationCenter defaultCenter] removeObserver:self];
 	virtualCurrencyBalanceView.font = [UIFont systemFontOfSize:14.0];
 	NSString *balanceToString = [balance object];
 	virtualCurrencyBalanceView.text =  [NSString stringWithFormat:@"%@%@%@", @"My Balance is ", balanceToString, @" points"];
@@ -199,16 +193,14 @@ UITextView *virtualCurrencyBalanceView;
 	
 	if([balanceToString floatValue] >= 300.00) {
 		
-		
-		
-		
 		[self.g6Library debitUser:userId:@"300.00"];
-
-		
 		[self fadeOutLock:nil];
+	
+		
 	}
 	else {
-
+		self.rePromptBool = NO;
+		self.pay = [[PayViewController alloc] init];
 		UIAlertView *purchasePrompt = [[UIAlertView alloc] initWithTitle:@"Virtual Currency Needed" message:@"Would you like to purchase virtual currency now?" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"OK", nil];
 		
 		[purchasePrompt show];
@@ -222,6 +214,11 @@ UITextView *virtualCurrencyBalanceView;
 }
 
 -(void) rePrompt:(NSNotification *)msg {
+	[[NSNotificationCenter defaultCenter] removeObserver:self];
+	
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateBalance:) name:@"balanceReceived" object:nil];
+	[self checkBalance];
+	
 	self.rePromptBool = YES;
 	UIAlertView *purchasePrompt = [[UIAlertView alloc] initWithTitle:@"Complete purchase" message:@"Would you like to complete your virtual item purchase?" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"OK", nil];
 	
@@ -235,16 +232,11 @@ UITextView *virtualCurrencyBalanceView;
 	if(buttonIndex == 1) {
 		
 		if(self.rePromptBool) {
-			
 			[self buyGift];
-			
 		}
-		
 		else {
-			pay.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
-			
-			[self presentModalViewController:pay animated:YES];	
-		
+			self.pay.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+			[self presentModalViewController:self.pay animated:YES];	
 		}
 
 	}
@@ -252,13 +244,13 @@ UITextView *virtualCurrencyBalanceView;
 }
 
 -(void) buyGift {
+
+	
 	//start spinner
 	self.g6Library.requestsAllowed = TRUE;
 	
 	//[self.activity startAnimating];
 	[self checkBalance];
-	
-	
 	
 	//add observer to look for a response from the server
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(doesUserHaveEnoughCurrency:) name:@"balanceReceived" object:nil];
@@ -268,10 +260,14 @@ UITextView *virtualCurrencyBalanceView;
 }
 
 - (void) fadeOutLock:(NSNotification *)msg {
+	[[NSNotificationCenter defaultCenter] removeObserver:self];
+	
+	
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateBalance:) name:@"balanceReceived" object:nil];
 	
 	UIAlertView *congrats = [[UIAlertView alloc] initWithTitle:@"Gift earned" message:@"You've earned it!" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
 	[congrats show];
+	[congrats release];
 	
 	[self removeBuyButton:nil];
 	[UIView beginAnimations:nil context:NULL];
@@ -280,7 +276,7 @@ UITextView *virtualCurrencyBalanceView;
 	[winView setAlpha:100];
 	[UIView commitAnimations];
 	[self.activity stopAnimating];
-	
+	[self.pay release];
 	
 }
 
