@@ -9,9 +9,9 @@
 	};
 	1D3623250D0F684500981E51 /* G6PayModalExampleAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1965, 1027}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1066}}";
 			sepNavSelRange = "{338, 0}";
-			sepNavVisRange = "{0, 1681}";
+			sepNavVisRange = "{0, 1680}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* G6 Demo */ = {
@@ -30,9 +30,9 @@
 	};
 	28D7ACF70DDB3853001CB0EB /* G6PayModalExampleViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1636, 3835}}";
-			sepNavSelRange = "{4416, 11}";
-			sepNavVisRange = "{4375, 1638}";
+			sepNavIntBoundsRect = "{{0, 0}, {1441, 3835}}";
+			sepNavSelRange = "{5424, 0}";
+			sepNavVisRange = "{0, 1227}";
 			sepNavWindowFrame = "{{1, 72}, {849, 1098}}";
 		};
 	};
@@ -268,6 +268,13 @@
 		userBuildSettings = {
 		};
 	};
+	77381D1D12C5B93C00D17D03 /* gift.jpg */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.jpeg;
+		name = gift.jpg;
+		path = /Users/g6media/Desktop/gift.jpg;
+		sourceTree = "<absolute>";
+	};
 	778578FC12D27E2200DF79C6 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 7795D6D912D0BFAC00AB2254 /* facebook.php */;
@@ -318,15 +325,22 @@
 		vrLen = 1548;
 		vrLoc = 0;
 	};
-	7795D60F12CB832400AB2254 /* Default.png */ = {
+	7795D61412CB83B200AB2254 /* Default.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = Default.png;
+		path = /Users/g6media/Desktop/Default.png;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavWindowFrame = "{{15, 74}, {1063, 1099}}";
 		};
 	};
-	7795D61412CB83B200AB2254 /* Default.png */ = {
-		uiCtxt = {
-			sepNavWindowFrame = "{{15, 74}, {1063, 1099}}";
-		};
+	7795D63612CB85B800AB2254 /* icon.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = icon.png;
+		path = /Users/g6media/Desktop/icon.png;
+		sourceTree = "<absolute>";
 	};
 	7795D63A12CBE6B000AB2254 /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -361,7 +375,7 @@
 		fRef = 7795EA4712C31A1E0000A4E7 /* PayViewController.h */;
 		name = "PayViewController.h: 18";
 		rLen = 0;
-		rLoc = 402;
+		rLoc = 409;
 		rType = 0;
 		vrLen = 340;
 		vrLoc = 0;
@@ -435,33 +449,58 @@
 		indexTemplatePath = "";
 	};
 	7795EA4712C31A1E0000A4E7 /* PayViewController.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = PayViewController.h;
+		path = "/Users/g6media/Desktop/API LOL/G6PayModalExample/PayViewController.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1441, 624}}";
-			sepNavSelRange = "{181, 5}";
+			sepNavIntBoundsRect = "{{0, 0}, {1441, 601}}";
+			sepNavSelRange = "{409, 0}";
 			sepNavVisRange = "{0, 409}";
 			sepNavWindowFrame = "{{15, 74}, {1063, 1099}}";
 		};
 	};
 	7795EA4812C31A1E0000A4E7 /* PayViewController.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = PayViewController.m;
+		path = "/Users/g6media/Desktop/API LOL/G6PayModalExample/PayViewController.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1441, 2704}}";
-			sepNavSelRange = "{5454, 0}";
-			sepNavVisRange = "{4610, 1531}";
+			sepNavIntBoundsRect = "{{0, 0}, {1398, 2704}}";
+			sepNavSelRange = "{5184, 0}";
+			sepNavVisRange = "{0, 2296}";
 			sepNavWindowFrame = "{{857, 72}, {1063, 1099}}";
 		};
 	};
 	7795EA4C12C31CF80000A4E7 /* G6Pay.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = G6Pay.h;
+		path = /Users/g6media/Downloads/chapter4/UITest_WebView/Classes/G6Pay.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1441, 601}}";
 			sepNavSelRange = "{215, 0}";
 			sepNavVisRange = "{0, 732}";
+			sepNavWindowFrame = "{{15, 74}, {1063, 1099}}";
 		};
 	};
 	7795EA4D12C31CF80000A4E7 /* G6Pay.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = G6Pay.m;
+		path = /Users/g6media/Downloads/chapter4/UITest_WebView/Classes/G6Pay.m;
+		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1699, 3120}}";
-			sepNavSelRange = "{9, 0}";
-			sepNavVisRange = "{6803, 2028}";
+			sepNavIntBoundsRect = "{{0, 0}, {1441, 3367}}";
+			sepNavSelRange = "{739, 0}";
+			sepNavVisRange = "{0, 1521}";
 			sepNavWindowFrame = "{{15, 74}, {1063, 1099}}";
 		};
 	};
@@ -560,7 +599,7 @@
 		fRef = 7795EA4712C31A1E0000A4E7 /* PayViewController.h */;
 		name = "PayViewController.h: 20";
 		rLen = 0;
-		rLoc = 402;
+		rLoc = 409;
 		rType = 0;
 		vrLen = 421;
 		vrLoc = 0;
@@ -620,7 +659,7 @@
 		fRef = 7795EA4712C31A1E0000A4E7 /* PayViewController.h */;
 		name = "PayViewController.h: 20";
 		rLen = 0;
-		rLoc = 402;
+		rLoc = 409;
 		rType = 0;
 		vrLen = 421;
 		vrLoc = 0;
@@ -1661,8 +1700,8 @@
 		isa = PBXTextBookmark;
 		fRef = 7795EA4712C31A1E0000A4E7 /* PayViewController.h */;
 		name = "PayViewController.h: 10";
-		rLen = 2;
-		rLoc = 181;
+		rLen = 0;
+		rLoc = 409;
 		rType = 0;
 		vrLen = 409;
 		vrLoc = 0;
@@ -1806,6 +1845,20 @@
 		rType = 0;
 		vrLen = 1531;
 		vrLoc = 4610;
+	};
+	77FB1E9512DBD55600A93C9E /* G6Pay.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1441, 601}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 732}";
+		};
+	};
+	77FB1E9612DBD55600A93C9E /* G6Pay.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1441, 3380}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{3, 1551}";
+		};
 	};
 	77FD044912C7545200085B8B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;

@@ -15,16 +15,13 @@
 		2899E5220DE3E06400AC0155 /* G6PayModalExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* G6PayModalExampleViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* G6PayModalExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* G6PayModalExampleViewController.m */; };
-		77381D1E12C5B93C00D17D03 /* gift.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77381D1D12C5B93C00D17D03 /* gift.jpg */; };
-		7795D60212CB824C00AB2254 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7795D60112CB824C00AB2254 /* Default.png */; };
-		7795D61012CB832400AB2254 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7795D60F12CB832400AB2254 /* Default.png */; };
-		7795D61512CB83B200AB2254 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7795D61412CB83B200AB2254 /* Default.png */; };
-		7795D63712CB85B800AB2254 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7795D63612CB85B800AB2254 /* icon.png */; };
-		7795EA4912C31A1E0000A4E7 /* PayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7795EA4812C31A1E0000A4E7 /* PayViewController.m */; };
-		7795EA4E12C31CF80000A4E7 /* G6Pay.m in Sources */ = {isa = PBXBuildFile; fileRef = 7795EA4D12C31CF80000A4E7 /* G6Pay.m */; };
-		7795EA5412C31E4B0000A4E7 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7795EA5312C31E4B0000A4E7 /* x.png */; };
-		77FD040512C74E9500085B8B /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FD040412C74E9500085B8B /* lock.png */; };
-		77FD048912C758C000085B8B /* win.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FD048812C758C000085B8B /* win.png */; };
+		77FB1E9712DBD55600A93C9E /* G6Pay.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FB1E9612DBD55600A93C9E /* G6Pay.m */; };
+		77FB1E9D12DBD57B00A93C9E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FB1E9812DBD57B00A93C9E /* Default.png */; };
+		77FB1E9E12DBD57B00A93C9E /* gift.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77FB1E9912DBD57B00A93C9E /* gift.jpg */; };
+		77FB1E9F12DBD57B00A93C9E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FB1E9A12DBD57B00A93C9E /* icon.png */; };
+		77FB1EA012DBD57B00A93C9E /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FB1E9B12DBD57B00A93C9E /* lock.png */; };
+		77FB1EA112DBD57B00A93C9E /* win.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FB1E9C12DBD57B00A93C9E /* win.png */; };
+		77FB1EA612DBD60800A93C9E /* PayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FB1EA512DBD60800A93C9E /* PayViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,18 +37,15 @@
 		28D7ACF70DDB3853001CB0EB /* G6PayModalExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G6PayModalExampleViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* G6 Demo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "G6 Demo_Prefix.pch"; sourceTree = "<group>"; };
-		77381D1D12C5B93C00D17D03 /* gift.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gift.jpg; path = ../../gift.jpg; sourceTree = SOURCE_ROOT; };
-		7795D60112CB824C00AB2254 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../../Default.png; sourceTree = SOURCE_ROOT; };
-		7795D60F12CB832400AB2254 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../../Default.png; sourceTree = SOURCE_ROOT; };
-		7795D61412CB83B200AB2254 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../../Default.png; sourceTree = SOURCE_ROOT; };
-		7795D63612CB85B800AB2254 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../icon.png; sourceTree = SOURCE_ROOT; };
-		7795EA4712C31A1E0000A4E7 /* PayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PayViewController.h; path = ../PayViewController.h; sourceTree = "<group>"; };
-		7795EA4812C31A1E0000A4E7 /* PayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PayViewController.m; path = ../PayViewController.m; sourceTree = "<group>"; };
-		7795EA4C12C31CF80000A4E7 /* G6Pay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = G6Pay.h; path = ../../../Downloads/chapter4/UITest_WebView/Classes/G6Pay.h; sourceTree = SOURCE_ROOT; };
-		7795EA4D12C31CF80000A4E7 /* G6Pay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = G6Pay.m; path = ../../../Downloads/chapter4/UITest_WebView/Classes/G6Pay.m; sourceTree = SOURCE_ROOT; };
-		7795EA5312C31E4B0000A4E7 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = x.png; path = ../../x.png; sourceTree = SOURCE_ROOT; };
-		77FD040412C74E9500085B8B /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lock.png; path = ../../lock.png; sourceTree = SOURCE_ROOT; };
-		77FD048812C758C000085B8B /* win.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win.png; path = ../../win.png; sourceTree = SOURCE_ROOT; };
+		77FB1E9512DBD55600A93C9E /* G6Pay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G6Pay.h; sourceTree = "<group>"; };
+		77FB1E9612DBD55600A93C9E /* G6Pay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G6Pay.m; sourceTree = "<group>"; };
+		77FB1E9812DBD57B00A93C9E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = images/Default.png; sourceTree = "<group>"; };
+		77FB1E9912DBD57B00A93C9E /* gift.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gift.jpg; path = images/gift.jpg; sourceTree = "<group>"; };
+		77FB1E9A12DBD57B00A93C9E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = images/icon.png; sourceTree = "<group>"; };
+		77FB1E9B12DBD57B00A93C9E /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lock.png; path = images/lock.png; sourceTree = "<group>"; };
+		77FB1E9C12DBD57B00A93C9E /* win.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win.png; path = images/win.png; sourceTree = "<group>"; };
+		77FB1EA412DBD60800A93C9E /* PayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayViewController.h; sourceTree = "<group>"; };
+		77FB1EA512DBD60800A93C9E /* PayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayViewController.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* G6 Demo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "G6 Demo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,10 +66,10 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7795EA4C12C31CF80000A4E7 /* G6Pay.h */,
-				7795EA4D12C31CF80000A4E7 /* G6Pay.m */,
-				7795EA4712C31A1E0000A4E7 /* PayViewController.h */,
-				7795EA4812C31A1E0000A4E7 /* PayViewController.m */,
+				77FB1EA412DBD60800A93C9E /* PayViewController.h */,
+				77FB1EA512DBD60800A93C9E /* PayViewController.m */,
+				77FB1E9512DBD55600A93C9E /* G6Pay.h */,
+				77FB1E9612DBD55600A93C9E /* G6Pay.m */,
 				1D3623240D0F684500981E51 /* G6PayModalExampleAppDelegate.h */,
 				1D3623250D0F684500981E51 /* G6PayModalExampleAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* G6PayModalExampleViewController.h */,
@@ -116,14 +110,11 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				77FD040412C74E9500085B8B /* lock.png */,
-				7795D63612CB85B800AB2254 /* icon.png */,
-				7795D60F12CB832400AB2254 /* Default.png */,
-				7795D60112CB824C00AB2254 /* Default.png */,
-				7795D61412CB83B200AB2254 /* Default.png */,
-				77FD048812C758C000085B8B /* win.png */,
-				77381D1D12C5B93C00D17D03 /* gift.jpg */,
-				7795EA5312C31E4B0000A4E7 /* x.png */,
+				77FB1E9812DBD57B00A93C9E /* Default.png */,
+				77FB1E9912DBD57B00A93C9E /* gift.jpg */,
+				77FB1E9A12DBD57B00A93C9E /* icon.png */,
+				77FB1E9B12DBD57B00A93C9E /* lock.png */,
+				77FB1E9C12DBD57B00A93C9E /* win.png */,
 				2899E5210DE3E06400AC0155 /* G6PayModalExampleViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* G6 Demo-Info.plist */,
@@ -192,14 +183,11 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* G6PayModalExampleViewController.xib in Resources */,
-				7795EA5412C31E4B0000A4E7 /* x.png in Resources */,
-				77381D1E12C5B93C00D17D03 /* gift.jpg in Resources */,
-				77FD040512C74E9500085B8B /* lock.png in Resources */,
-				77FD048912C758C000085B8B /* win.png in Resources */,
-				7795D60212CB824C00AB2254 /* Default.png in Resources */,
-				7795D61012CB832400AB2254 /* Default.png in Resources */,
-				7795D61512CB83B200AB2254 /* Default.png in Resources */,
-				7795D63712CB85B800AB2254 /* icon.png in Resources */,
+				77FB1E9D12DBD57B00A93C9E /* Default.png in Resources */,
+				77FB1E9E12DBD57B00A93C9E /* gift.jpg in Resources */,
+				77FB1E9F12DBD57B00A93C9E /* icon.png in Resources */,
+				77FB1EA012DBD57B00A93C9E /* lock.png in Resources */,
+				77FB1EA112DBD57B00A93C9E /* win.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,8 +201,8 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* G6PayModalExampleAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* G6PayModalExampleViewController.m in Sources */,
-				7795EA4912C31A1E0000A4E7 /* PayViewController.m in Sources */,
-				7795EA4E12C31CF80000A4E7 /* G6Pay.m in Sources */,
+				77FB1E9712DBD55600A93C9E /* G6Pay.m in Sources */,
+				77FB1EA612DBD60800A93C9E /* PayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
