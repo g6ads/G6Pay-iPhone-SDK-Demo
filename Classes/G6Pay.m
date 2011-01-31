@@ -24,7 +24,6 @@ const NSString *debit_user_url=@"http://g6pay.com/api/debit?amount=";
 
 -(void)track {
 	
-
 	NSString *appId = @"8";
 	[self payPerInstall:appId];
 	

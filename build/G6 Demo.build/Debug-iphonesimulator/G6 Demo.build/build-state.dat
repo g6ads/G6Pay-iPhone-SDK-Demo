@@ -1,7 +1,7 @@
 TG6 Demo
 v7
 r0
-t316397081.571617
+t317466053.533956
 cCheck dependencies
 cProcessInfoPlistFile "/Users/g6media/Desktop/API LOL/G6PayModalExample/build/Debug-iphonesimulator/G6 Demo.app/Info.plist" "G6 Demo-Info.plist"
 cCompileXIB "/Users/g6media/Desktop/API LOL/G6PayModalExample/MainWindow.xib"
@@ -140,9 +140,9 @@ i<Foundation/Foundation.h>
 i<CommonCrypto/CommonDigest.h>
 
 N/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6Pay.m
-c000000004D2B6BDA00000000000024BB
-t1294691290
-s9403
+c000000004D2CAEBC00000000000024BD
+t1294773948
+s9405
 i"G6Pay.h"
 
 N/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6PayModalExampleAppDelegate.h
@@ -373,7 +373,7 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies316397075#316397076#0(0"0(0#1#0"8622792864#0"0#
+lSLF07#2@18"Check dependencies317466053#317466053#0(0"0(0#1#0"8606092896#0"0#
 
 CCompileC "build/G6 Demo.build/Debug-iphonesimulator/G6 Demo.build/Objects-normal/i386/G6Ads.o" "/Users/g6media/Desktop/API LOL/G6PayModalExample/../../../Downloads/chapter4/UITest_WebView/Classes/G6Ads.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s316348168.001244
