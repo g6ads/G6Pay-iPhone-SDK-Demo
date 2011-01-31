@@ -10,7 +10,7 @@
 
 const NSString *secret_key=@"3754cc6199343d095.77764861";
 const NSString *application_id=@"8";
-const NSString *monetization_url=@"http://g6pay.com/api/unlockfeature?app_id=";
+const NSString *monetization_url=@"http://g6pay.com/api/buycurrency?app_id=";
 const NSString *check_url=@"http://g6pay.com/api/iscompleted/app_id/";
 const NSString *user_balance_url=@"http://g6pay.com/api/getuserbalance?app_id=";
 const NSString *pay_per_install_url=@"http://g6pay.com/api/installconfirm?app_id=";
