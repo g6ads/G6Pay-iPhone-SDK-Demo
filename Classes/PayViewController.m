@@ -184,7 +184,7 @@ UIActivityIndicatorView *activity;
 	NSString *uniqueIdentifier = [device uniqueIdentifier];
 	
 	//execute JavaScript on the loaded web view to put the unique phone id into the web view 
-	NSString *javaScriptCode = [NSString stringWithFormat:@"%@%@%@", @"$('.ppi').attr('href', $('.ppi').attr('href').replace('udidrplc','", uniqueIdentifier, @"'));" ];
+	NSString *javaScriptCode = [NSString stringWithFormat:@"%@%@%@", @"$('.ppi').each(function() {$(this).attr('href', $(this).attr('href').replace('udidrplc','", uniqueIdentifier, @"'));});" ];
 	
 	
 	[webView stringByEvaluatingJavaScriptFromString:javaScriptCode];
