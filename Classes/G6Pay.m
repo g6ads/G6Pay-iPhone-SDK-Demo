@@ -42,8 +42,12 @@ const NSString *debit_user_url=@"http://g6pay.com/api/debit?amount=";
 	
 	NSLog(@"%@",self.cur_signature);
 	
+	
+	UIDevice *device = [UIDevice currentDevice];
+	NSString *uniqueIdentifier = [device uniqueIdentifier];
+	
 	NSLog(@"%@",hash);
-	NSString *url = [NSString stringWithFormat:@"%@%@&user_id=%@&timestamp=%@&signature=%@", monetization_url, application_id, userId, timestamp, hash];
+	NSString *url = [NSString stringWithFormat:@"%@%@&user_id=%@&timestamp=%@&signature=%@&udid=%@", monetization_url, application_id, userId, timestamp, hash, uniqueIdentifier];
 	NSLog(@"%@", url);
 	return url;
 	

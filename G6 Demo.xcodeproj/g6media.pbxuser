@@ -2,16 +2,16 @@
 {
 	1D3623240D0F684500981E51 /* G6PayModalExampleAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1441, 624}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1441, 534}}";
 			sepNavSelRange = "{378, 0}";
 			sepNavVisRange = "{0, 532}";
 		};
 	};
 	1D3623250D0F684500981E51 /* G6PayModalExampleAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1965, 1157}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1014}}";
 			sepNavSelRange = "{338, 0}";
-			sepNavVisRange = "{0, 1679}";
+			sepNavVisRange = "{311, 1674}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* G6 Demo */ = {
@@ -22,7 +22,7 @@
 	};
 	28D7ACF60DDB3853001CB0EB /* G6PayModalExampleViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1441, 598}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1441, 527}}";
 			sepNavSelRange = "{747, 0}";
 			sepNavVisRange = "{0, 790}";
 			sepNavWindowFrame = "{{15, 74}, {1063, 1099}}";
@@ -30,9 +30,9 @@
 	};
 	28D7ACF70DDB3853001CB0EB /* G6PayModalExampleViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1636, 3900}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1636, 3926}}";
 			sepNavSelRange = "{5424, 0}";
-			sepNavVisRange = "{6282, 1550}";
+			sepNavVisRange = "{4177, 1299}";
 			sepNavWindowFrame = "{{1, 72}, {849, 1098}}";
 		};
 	};
@@ -113,42 +113,120 @@
 					PBXFileDataSource_Path_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 317879912;
-			PBXWorkspaceStateSaveDate = 317879912;
+			PBXPerProjectTemplateStateSaveDate = 319745918;
+			PBXWorkspaceStateSaveDate = 319745918;
 		};
 		perUserProjectItems = {
-			773B0FF912ECF4C300715902 = 773B0FF912ECF4C300715902 /* PBXTextBookmark */;
-			773C216712EA58E10022F7A9 = 773C216712EA58E10022F7A9 /* PBXTextBookmark */;
+			7711948812F81B7700AD1DC1 = 7711948812F81B7700AD1DC1 /* PBXTextBookmark */;
+			776CFBA1130E16BC003F9B04 = 776CFBA1130E16BC003F9B04 /* PBXTextBookmark */;
+			776CFBA2130E16BC003F9B04 = 776CFBA2130E16BC003F9B04 /* PBXTextBookmark */;
+			776CFBA3130E16BC003F9B04 = 776CFBA3130E16BC003F9B04 /* PBXTextBookmark */;
+			776CFBA4130E16BC003F9B04 = 776CFBA4130E16BC003F9B04 /* PBXTextBookmark */;
+			776CFBA5130E16BC003F9B04 = 776CFBA5130E16BC003F9B04 /* PBXTextBookmark */;
+			776CFBA6130E16BC003F9B04 = 776CFBA6130E16BC003F9B04 /* PBXTextBookmark */;
+			776CFBA7130E16BC003F9B04 = 776CFBA7130E16BC003F9B04 /* PBXTextBookmark */;
+			776CFBA8130E16BC003F9B04 = 776CFBA8130E16BC003F9B04 /* PBXTextBookmark */;
 			778578FC12D27E2200DF79C6 = 778578FC12D27E2200DF79C6 /* PBXTextBookmark */;
-			77FB1E5712DBA35C00A93C9E = 77FB1E5712DBA35C00A93C9E /* PBXTextBookmark */;
-			77FB1E5812DBA35C00A93C9E = 77FB1E5812DBA35C00A93C9E /* PBXTextBookmark */;
-			77FB1EAB12DD035900A93C9E = 77FB1EAB12DD035900A93C9E /* PBXTextBookmark */;
-			77FB1EAC12DD035900A93C9E = 77FB1EAC12DD035900A93C9E /* PBXTextBookmark */;
-			77FB1EAD12DD035900A93C9E = 77FB1EAD12DD035900A93C9E /* PBXTextBookmark */;
+			77FAD33612F6F3760054BD1F = 77FAD33612F6F3760054BD1F /* PBXTextBookmark */;
 		};
 		sourceControlManager = 7795EA4512C319FA0000A4E7 /* Source Control */;
 		userBuildSettings = {
 		};
 	};
-	773B0FF912ECF4C300715902 /* PBXTextBookmark */ = {
+	7711948812F81B7700AD1DC1 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 77FB1E9612DBD55600A93C9E /* G6Pay.m */;
-		name = "G6Pay.m: 14";
+		fRef = 7711948912F81B7700AD1DC1 /* G6Pay.m */;
+		name = "G6Pay.m: 49";
 		rLen = 0;
-		rLoc = 348;
+		rLoc = 1220;
 		rType = 0;
-		vrLen = 1556;
+		vrLen = 1175;
 		vrLoc = 0;
 	};
-	773C216712EA58E10022F7A9 /* PBXTextBookmark */ = {
+	7711948912F81B7700AD1DC1 /* G6Pay.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = G6Pay.m;
+		path = "/Users/g6media/Desktop/API LOL/G6Pay Tracking/G6Pay.m";
+		sourceTree = "<absolute>";
+	};
+	776CFBA1130E16BC003F9B04 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77FB1EA412DBD60800A93C9E /* PayViewController.h */;
+		name = "PayViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 409;
+		vrLoc = 0;
+	};
+	776CFBA2130E16BC003F9B04 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* G6PayModalExampleViewController.h */;
+		name = "G6PayModalExampleViewController.h: 30";
+		rLen = 0;
+		rLoc = 747;
+		rType = 0;
+		vrLen = 790;
+		vrLoc = 0;
+	};
+	776CFBA3130E16BC003F9B04 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* G6PayModalExampleViewController.m */;
+		name = "G6PayModalExampleViewController.m: 160";
+		rLen = 0;
+		rLoc = 5424;
+		rType = 0;
+		vrLen = 1420;
+		vrLoc = 6282;
+	};
+	776CFBA4130E16BC003F9B04 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* G6PayModalExampleAppDelegate.h */;
+		name = "G6PayModalExampleAppDelegate.h: 16";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 532;
+		vrLoc = 0;
+	};
+	776CFBA5130E16BC003F9B04 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77FB1E9512DBD55600A93C9E /* G6Pay.h */;
+		name = "G6Pay.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 732;
+		vrLoc = 0;
+	};
+	776CFBA6130E16BC003F9B04 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 77FB1E9612DBD55600A93C9E /* G6Pay.m */;
-		name = "G6Pay.m: 24";
-		rLen = 0;
-		rLoc = 769;
+		name = "G6Pay.m: 35";
+		rLen = 13;
+		rLoc = 998;
 		rType = 0;
-		vrLen = 1556;
-		vrLoc = 0;
+		vrLen = 1372;
+		vrLoc = 586;
+	};
+	776CFBA7130E16BC003F9B04 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'G6Pay' may not respond to '-checkOffer:'";
+		fRef = 77FB1EA512DBD60800A93C9E /* PayViewController.m */;
+		rLen = 1;
+		rLoc = 137;
+		rType = 1;
+	};
+	776CFBA8130E16BC003F9B04 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77FB1EA512DBD60800A93C9E /* PayViewController.m */;
+		name = "PayViewController.m: 138";
+		rLen = 0;
+		rLoc = 5098;
+		rType = 0;
+		vrLen = 1422;
+		vrLoc = 4478;
 	};
 	778578FC12D27E2200DF79C6 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -174,7 +252,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
+		breakpointsEnabled = 1;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -218,82 +296,43 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	77FB1E5712DBA35C00A93C9E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* G6PayModalExampleAppDelegate.h */;
-		name = "G6PayModalExampleAppDelegate.h: 16";
-		rLen = 0;
-		rLoc = 378;
-		rType = 0;
-		vrLen = 532;
-		vrLoc = 0;
-	};
-	77FB1E5812DBA35C00A93C9E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* G6PayModalExampleViewController.h */;
-		name = "G6PayModalExampleViewController.h: 30";
-		rLen = 0;
-		rLoc = 747;
-		rType = 0;
-		vrLen = 790;
-		vrLoc = 0;
-	};
-	77FB1E9512DBD55600A93C9E /* G6Pay.h */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1441, 601}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 732}";
-		};
-	};
-	77FB1E9612DBD55600A93C9E /* G6Pay.m */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1699, 3211}}";
-			sepNavSelRange = "{1554, 0}";
-			sepNavVisRange = "{770, 1481}";
-		};
-	};
-	77FB1EA412DBD60800A93C9E /* PayViewController.h */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1441, 598}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 409}";
-		};
-	};
-	77FB1EA512DBD60800A93C9E /* PayViewController.m */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1441, 2847}}";
-			sepNavSelRange = "{5697, 0}";
-			sepNavVisRange = "{5344, 1594}";
-		};
-	};
-	77FB1EAB12DD035900A93C9E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* G6PayModalExampleViewController.m */;
-		name = "G6PayModalExampleViewController.m: 160";
-		rLen = 0;
-		rLoc = 5424;
-		rType = 0;
-		vrLen = 1227;
-		vrLoc = 0;
-	};
-	77FB1EAC12DD035900A93C9E /* PBXTextBookmark */ = {
+	77FAD33612F6F3760054BD1F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1D3623250D0F684500981E51 /* G6PayModalExampleAppDelegate.m */;
 		name = "G6PayModalExampleAppDelegate.m: 15";
 		rLen = 0;
 		rLoc = 338;
 		rType = 0;
-		vrLen = 1680;
+		vrLen = 1679;
 		vrLoc = 0;
 	};
-	77FB1EAD12DD035900A93C9E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 77FB1E9512DBD55600A93C9E /* G6Pay.h */;
-		name = "G6Pay.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 732;
-		vrLoc = 0;
+	77FB1E9512DBD55600A93C9E /* G6Pay.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1441, 534}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 732}";
+		};
+	};
+	77FB1E9612DBD55600A93C9E /* G6Pay.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1441, 3354}}";
+			sepNavSelRange = "{998, 13}";
+			sepNavVisRange = "{86, 1473}";
+			sepNavWindowFrame = "{{15, 86}, {1693, 1092}}";
+		};
+	};
+	77FB1EA412DBD60800A93C9E /* PayViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1441, 534}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 409}";
+		};
+	};
+	77FB1EA512DBD60800A93C9E /* PayViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1441, 2691}}";
+			sepNavSelRange = "{5098, 0}";
+			sepNavVisRange = "{4478, 1396}";
+		};
 	};
 }

@@ -72,7 +72,9 @@ UIActivityIndicatorView *activity;
 	self.g6Library = [[G6Pay alloc] init];
 	self.g6Library.requestsAllowed = TRUE;
 
+
 	NSString *userId = @"raspasov";
+	
 	NSString *urlAddress=[self.g6Library displayOffers:userId];
 	
 	NSURL *url = [NSURL URLWithString:urlAddress];

@@ -1,7 +1,0 @@
-/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6Pay.m: In function '-[G6Pay track]':
-/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6Pay.m:28: warning: 'G6Pay' may not respond to '-payPerInstall:'
-/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6Pay.m:28: warning: (Messages without a matching method signature
-/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6Pay.m:28: warning: will be assumed to return 'id' and accept
-/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6Pay.m:28: warning: '...' as arguments.)
-/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6Pay.m: In function '-[G6Pay displayOffers:]':
-/Users/g6media/Desktop/API LOL/G6PayModalExample/Classes/G6Pay.m:39: warning: 'G6Pay' may not respond to '-hashGen:'
