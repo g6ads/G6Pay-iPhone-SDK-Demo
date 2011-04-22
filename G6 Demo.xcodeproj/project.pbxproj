@@ -21,7 +21,6 @@
 		77FB1E9F12DBD57B00A93C9E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FB1E9A12DBD57B00A93C9E /* icon.png */; };
 		77FB1EA012DBD57B00A93C9E /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FB1E9B12DBD57B00A93C9E /* lock.png */; };
 		77FB1EA112DBD57B00A93C9E /* win.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FB1E9C12DBD57B00A93C9E /* win.png */; };
-		77FB1EA612DBD60800A93C9E /* PayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FB1EA512DBD60800A93C9E /* PayViewController.m */; };
 		ADDD77E41361382A00E6C8A3 /* G6OfferDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDD77E31361382A00E6C8A3 /* G6OfferDTO.m */; };
 		ADDD77E7136139B100E6C8A3 /* G6TransactionDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDD77E6136139B000E6C8A3 /* G6TransactionDTO.m */; };
 		ADDD77EC1361463A00E6C8A3 /* G6ResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDD77EB1361463800E6C8A3 /* G6ResponseParser.m */; };
@@ -48,8 +47,6 @@
 		77FB1E9A12DBD57B00A93C9E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = images/icon.png; sourceTree = "<group>"; };
 		77FB1E9B12DBD57B00A93C9E /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lock.png; path = images/lock.png; sourceTree = "<group>"; };
 		77FB1E9C12DBD57B00A93C9E /* win.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win.png; path = images/win.png; sourceTree = "<group>"; };
-		77FB1EA412DBD60800A93C9E /* PayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayViewController.h; sourceTree = "<group>"; };
-		77FB1EA512DBD60800A93C9E /* PayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayViewController.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* G6 Demo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "G6 Demo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		ADDD77E21361382A00E6C8A3 /* G6OfferDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G6OfferDTO.h; sourceTree = "<group>"; };
 		ADDD77E31361382A00E6C8A3 /* G6OfferDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G6OfferDTO.m; sourceTree = "<group>"; };
@@ -81,8 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				ADDD77D81361317900E6C8A3 /* G6SDK */,
-				77FB1EA412DBD60800A93C9E /* PayViewController.h */,
-				77FB1EA512DBD60800A93C9E /* PayViewController.m */,
 				1D3623240D0F684500981E51 /* G6PayModalExampleAppDelegate.h */,
 				1D3623250D0F684500981E51 /* G6PayModalExampleAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* G6PayModalExampleViewController.h */,
@@ -234,7 +229,6 @@
 				1D3623260D0F684500981E51 /* G6PayModalExampleAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* G6PayModalExampleViewController.m in Sources */,
 				77FB1E9712DBD55600A93C9E /* G6Pay.m in Sources */,
-				77FB1EA612DBD60800A93C9E /* PayViewController.m in Sources */,
 				ADDD77E41361382A00E6C8A3 /* G6OfferDTO.m in Sources */,
 				ADDD77E7136139B100E6C8A3 /* G6TransactionDTO.m in Sources */,
 				ADDD77EC1361463A00E6C8A3 /* G6ResponseParser.m in Sources */,
@@ -249,6 +243,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Renato Mascardo (3QKJTDWXA5)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -256,6 +251,7 @@
 				GCC_PREFIX_HEADER = "G6 Demo_Prefix.pch";
 				INFOPLIST_FILE = "G6 Demo-Info.plist";
 				PRODUCT_NAME = "G6 Demo";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E102C753-8084-413B-93F6-199CF417B310";
 			};
 			name = Debug;
 		};

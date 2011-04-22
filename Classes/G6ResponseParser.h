@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "G6OfferDTO.h"
+#import "G6TransactionDTO.h"
 
 @interface G6ResponseParser : NSObject {
     

@@ -3,29 +3,40 @@
 //  G6 Pay SDK
 //
 //  Created by Peter Hsu on 4/20/11.
-//  Copyright 2011 Abaca Technology. All rights reserved.
+//  Copyright 2011 G6 Media. All rights reserved.
 //
 
 #import "G6OfferViewController.h"
 
+#import "G6Pay.h"
 
 @implementation G6OfferViewController
 
 @synthesize navBarOnTop;
 @synthesize showNavBar;
 @synthesize parent;
+@synthesize signature;
+@synthesize offersDelegate;
 @synthesize urlString;
 @synthesize activityView;
+@synthesize autoclose;
 
-- (id)initWithURL:(NSString *)url andG6Instance:(G6Pay *)g6Instance {
+- (id)initWithURL:(NSString *)url
+     andSignature:(NSString *)sig
+andOffersDelegate:(id<G6OffersDelegate>)delegate
+    andG6Instance:(G6Pay *)g6Instance {
     self = [super init];
     
     if (self) {
         self.urlString = url;
         self.parent = g6Instance;
+        self.signature = sig;
         
         self.navBarOnTop = YES;
         self.showNavBar = YES;
+        self.autoclose = NO;
+        
+        wasClosed = NO;
     }
     
     return self;
@@ -35,6 +46,7 @@
 - (void)dealloc
 {
     [urlString release];
+    [signature release];
     
     [super dealloc];
 }
@@ -170,8 +182,13 @@
 	[activity release];
     
 	
-	
+}
 
+- (void)viewWillDisappear:(BOOL)animated {
+    
+    if (parent != nil) {
+        [parent startOffersPoll:signature delegate:offersDelegate];
+    }
 }
 
 - (void)viewDidUnload
@@ -207,9 +224,11 @@
 
 //executed when the Close button is pressed for the web view
 - (void) userDidSelectClose:(id)sender {
+    wasClosed = YES;
     
 	[self dismissModalViewControllerAnimated:YES];
     
 }
+
 
 @end

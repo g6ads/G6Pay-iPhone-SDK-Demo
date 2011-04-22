@@ -7,32 +7,32 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "PayViewController.h"
 
 @interface G6PayModalExampleViewController : UIViewController {
-	G6Pay *g6Library;
-	PayViewController *pay;
 	UIActivityIndicatorView *activity;
 	UIImageView *lockView;
 	UIImageView *winView;
+    UILabel *virtualCurrencyBalanceView;
+    UILabel *notificationLabel;
+    UILabel *notificationStatusLabel;
+    UIAlertView *purchaseAlertView;
+	UIButton *buyButton;
+    
 	NSString *userId;
-	UIButton *button;
-	BOOL rePromptBool;
-    UITextView *virtualCurrencyBalanceView;
     
     float currentBalance;
 
 }
 
-@property(retain) UIActivityIndicatorView *activity;
-@property(retain) G6Pay *g6Library;
-@property(retain) UIImageView *lockView;
-@property(retain) UIImageView *winView;
-@property(retain) UIButton *button;
+@property(assign) UIActivityIndicatorView *activity;
+@property(assign) UIImageView *lockView;
+@property(assign) UIImageView *winView;
+@property(assign) UILabel *virtualCurrencyBalanceView;
+@property(assign) UILabel *notificationLabel;
+@property(assign) UILabel *notificationStatusLabel;
+@property(assign) UIButton *buyButton;
+
 @property(retain) NSString *userId;
-@property(retain) PayViewController *pay;
-@property BOOL rePromptBool;
-@property(retain) UITextView *virtualCurrencyBalanceView;
 
 @end
 

@@ -11,4 +11,22 @@
 
 @implementation G6TransactionDTO
 
+@synthesize userId;
+@synthesize offerId;
+@synthesize offerName;
+@synthesize netPayout;
+@synthesize virtualCurrencyAmount;
+@synthesize date;
+@synthesize description;
+
+
+- (void)dealloc {
+    [userId release];
+    [offerId release];
+    [offerName release];
+    [date release];
+    [description release];
+    
+    [super dealloc];
+}
 @end

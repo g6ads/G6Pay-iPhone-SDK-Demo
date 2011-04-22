@@ -17,25 +17,26 @@
 #import "G6OfferViewController.h"
 
 #define G6_DEFAULT_TIMEOUT  60
+#define G6_DEFAULT_POLL_INTERVAL 30
 
 @interface G6Pay : NSObject {
 	
-	NSString *cur_signature;
-	NSString *last_offer_url;
-	NSString *last_uid;
-	BOOL requestsAllowed;
-    
-    
     NSMutableDictionary *requests;
     
     NSString *appId;
     NSString *secretKey;
+    
+    BOOL pollForCompletedOffers;
+    float pollInterval;
+    
+    NSTimer *offersTimer;
 }
 
 
 + (G6Pay *)initSDKWithAppId:(NSString *)appId andSecretKey:(NSString *)secretKey;
 
 + (G6Pay *)getG6Instance;
+
 
 // Get the offers URL if you want to display the web view yourself
 - (NSString *)getOffersURL:(NSString *)userId;
@@ -64,9 +65,14 @@ navigationBarOnTop:(BOOL)navigationBarOnTop;
 
 - (void)installConfirm;
 
+- (void)startOffersPoll:(NSString *)userId delegate:(id<G6OffersDelegate>)delegate;
+- (void)stopOffersPoll;
+
+@property (nonatomic) BOOL pollForCompletedOffers;
+@property (nonatomic) float pollInterval;
 
 @property (nonatomic, copy) NSString *appId;
 @property (nonatomic, copy) NSString *secretKey;
-
+@property (nonatomic, retain) NSTimer *offersTimer;
 
 @end
