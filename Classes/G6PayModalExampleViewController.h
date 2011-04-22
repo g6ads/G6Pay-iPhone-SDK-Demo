@@ -18,6 +18,9 @@
 	NSString *userId;
 	UIButton *button;
 	BOOL rePromptBool;
+    UITextView *virtualCurrencyBalanceView;
+    
+    float currentBalance;
 
 }
 
@@ -29,6 +32,7 @@
 @property(retain) NSString *userId;
 @property(retain) PayViewController *pay;
 @property BOOL rePromptBool;
+@property(retain) UITextView *virtualCurrencyBalanceView;
 
 @end
 

@@ -5,7 +5,7 @@
 //  Created by Rangel Spasov on 12/23/10.
 //  Copyright 2010 G6 Media. All rights reserved.
 //
-#import "G6PayModalExampleViewController.h";
+#import "G6PayModalExampleViewController.h"
 #import "PayViewController.h"
 
 #import <QuartzCore/QuartzCore.h>
@@ -70,7 +70,6 @@ UIActivityIndicatorView *activity;
 	//instantiates the G6Pay class, creates a valid URL and loads it into the UIWebView element created in the previous step
 	
 	self.g6Library = [[G6Pay alloc] init];
-	self.g6Library.requestsAllowed = TRUE;
 
 
 	NSString *userId = @"raspasov";

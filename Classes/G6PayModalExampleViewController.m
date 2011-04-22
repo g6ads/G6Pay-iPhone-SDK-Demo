@@ -9,12 +9,11 @@
 #import "G6PayModalExampleViewController.h"
 
 
-UITextView *virtualCurrencyBalanceView;
 
 
 @implementation G6PayModalExampleViewController
 
-@synthesize activity, g6Library, lockView, winView, button, rePromptBool, userId, pay;
+@synthesize activity, g6Library, lockView, winView, button, rePromptBool, userId, pay, virtualCurrencyBalanceView;
 
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.
@@ -43,8 +42,8 @@ UITextView *virtualCurrencyBalanceView;
 	
 	//instantiates the G6Pay class, creates a valid URL and loads it into the UIWebView element created in the previous step
 	
-	self.g6Library = [[G6Pay alloc] init];
-	self.g6Library.requestsAllowed = TRUE;
+    
+    [G6Pay initSDKWithAppId:@"8" andSecretKey:@"3754cc6199343d095.77764861"];
 
 	
 	//initiate virtual currency balance frame
@@ -129,7 +128,7 @@ UITextView *virtualCurrencyBalanceView;
 	[self.view addSubview:subtractFiftyButton];
 	
 	
-	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateBalance:) name:@"balanceReceived" object:nil];
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(getBalanceSuccessNotification:) name:G6_NOTIFICATION_USER_BALANCE_SUCCESS object:nil];
 	[self checkBalance];
 	
 	//add the activity spinner
@@ -142,39 +141,61 @@ UITextView *virtualCurrencyBalanceView;
 -(void) addFifty {
 	//start spinner
 	[self.activity startAnimating];
-	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateBalance:) name:@"balanceReceived" object:nil];
-	[self.g6Library creditUser:userId:@"50.00"];
-	
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(creditUserSuccessNotification:) name:G6_NOTIFICATION_CREDIT_USER_SUCCESS object:nil];
+    
+    [[G6Pay getG6Instance] creditUser:[NSString stringWithFormat:@"%ld", [[NSDate date] timeIntervalSince1970]]
+                               userId:userId
+                               amount:50
+                             delegate:nil];
 	
 }
 //method that subtracts 50 points to the user's balance
 -(void)subtractFifty {
 	//start spinner
 	[self.activity startAnimating];
-	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateBalance:) name:@"balanceReceived" object:nil];
-	[self.g6Library debitUser:userId:@"50.00"];
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(debitUserSuccessNotification:) name:G6_NOTIFICATION_DEBIT_USER_SUCCESS
+                                               object:nil];
+    
+    [[G6Pay getG6Instance] debitUser:[NSString stringWithFormat:@"%ld", [[NSDate date] timeIntervalSince1970]]
+                               userId:userId
+                               amount:50
+                             delegate:nil];
 }
 
 
 //checks user's balance
 - (void) checkBalance {
-	
-	[self.g6Library checkUserBalance:userId];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(getBalanceSuccessNotification:) name:G6_NOTIFICATION_USER_BALANCE_SUCCESS object:nil];
+
+    [self.activity startAnimating];
+    [[G6Pay getG6Instance] getUserBalance:userId delegate:nil];
 
 	
 }
 
+#pragma mark NSNotification events
+
+-(void) debitUserSuccessNotification:(NSNotification *)notification {
+    NSLog(@"Debit user success");
+    [self checkBalance];
+}
+
+-(void) creditUserSuccessNotification:(NSNotification *)notification {
+    NSLog(@"Credit user success");
+    [self checkBalance];
+}
+
 //receives the notification when the user balance check is completed and received back from the server (receives notification from G6Pay
--(void) updateBalance:(NSNotification *)balance  {
-	
-	
-	[[NSNotificationCenter defaultCenter] removeObserver:self];
+-(void) getBalanceSuccessNotification:(NSNotification *)notification  {
 	virtualCurrencyBalanceView.font = [UIFont systemFontOfSize:14.0];
-	NSString *balanceToString = [balance object];
-	virtualCurrencyBalanceView.text =  [NSString stringWithFormat:@"%@%@%@", @"My Balance is ", balanceToString, @" points"];
+	NSNumber *balance = [notification object];
+	virtualCurrencyBalanceView.text =  [NSString stringWithFormat:@"%@%@%@", @"My Balance is ", [balance stringValue], @" points"];
 									   
 	
 	[self.activity stopAnimating];
+    
+    currentBalance = [balance floatValue];
+    
 	[self.view addSubview:virtualCurrencyBalanceView];
 	
 }
@@ -185,15 +206,17 @@ UITextView *virtualCurrencyBalanceView;
 	
 }
 
--(void) doesUserHaveEnoughCurrency:(NSNotification *)balance {
+-(void) doesUserHaveEnoughCurrency:(NSNotification *)notif {
 	
-	[[NSNotificationCenter defaultCenter] removeObserver:self];
-	
-	NSString *balanceToString = [balance object];
-	
-	if([balanceToString floatValue] >= 300.00) {
-		
-		[self.g6Library debitUser:userId:@"300.00"];
+	NSNumber *balance = [notif object];
+	if([balance floatValue] >= 300.00) {
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(debitUserSuccessNotification:) name:G6_NOTIFICATION_DEBIT_USER_SUCCESS
+                                                   object:nil];
+        
+		[[G6Pay getG6Instance] debitUser:[NSString stringWithFormat:@"%ld", [[NSDate date] timeIntervalSince1970]]
+                                  userId:userId
+                                  amount:300
+                                delegate:nil];
 		[self fadeOutLock:nil];
 	
 		
@@ -216,7 +239,7 @@ UITextView *virtualCurrencyBalanceView;
 -(void) rePrompt:(NSNotification *)msg {
 	[[NSNotificationCenter defaultCenter] removeObserver:self];
 	
-	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateBalance:) name:@"balanceReceived" object:nil];
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(getBalanceSuccessNotification:) name:G6_NOTIFICATION_USER_BALANCE_SUCCESS object:nil];
 	[self checkBalance];
 	
 	self.rePromptBool = YES;
@@ -235,8 +258,12 @@ UITextView *virtualCurrencyBalanceView;
 			[self buyGift];
 		}
 		else {
-			self.pay.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
-			[self presentModalViewController:self.pay animated:YES];	
+            
+            [[G6Pay getG6Instance] showOffers:@"raspasov"
+                                     delegate:nil
+                                       parent:self
+                            showNavigationBar:YES
+                           navigationBarOnTop:YES];
 		}
 
 	}
@@ -247,23 +274,19 @@ UITextView *virtualCurrencyBalanceView;
 
 	
 	//start spinner
-	self.g6Library.requestsAllowed = TRUE;
 	
 	//[self.activity startAnimating];
-	[self checkBalance];
 	
 	//add observer to look for a response from the server
-	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(doesUserHaveEnoughCurrency:) name:@"balanceReceived" object:nil];
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(doesUserHaveEnoughCurrency:) name:G6_NOTIFICATION_USER_BALANCE_SUCCESS object:nil];
+    
+	[self checkBalance];
 	
 	//add observer to look for fading out the lock image view
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(fadeOutLock:) name:@"fadeOutLock" object:nil];
 }
 
 - (void) fadeOutLock:(NSNotification *)msg {
-	[[NSNotificationCenter defaultCenter] removeObserver:self];
-	
-	
-	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateBalance:) name:@"balanceReceived" object:nil];
 	
 	UIAlertView *congrats = [[UIAlertView alloc] initWithTitle:@"Gift earned" message:@"You've earned it!" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
 	[congrats show];
