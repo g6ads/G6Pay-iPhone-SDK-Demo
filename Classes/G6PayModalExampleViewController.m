@@ -184,6 +184,11 @@
     [self fadeOutLock];
 }
 
+-(void) offerCompleted:(NSNotification *)notification {
+    G6OfferDTO *dto = notification.object;
+    NSLog(@"Offer completed %2.2f", dto.netPayout);
+    
+}
 
 -(void) getTransactionsSuccessNotification:(NSNotification *)notification {
     [self.activity stopAnimating];
@@ -225,6 +230,9 @@
 		
         if (purchaseAlertView == alertView) {
             
+            [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(offerCompleted:) name:G6_NOTIFICATION_OFFER_COMPLETED object:nil];
+                
+            [[G6Pay getG6Instance] setPollForCompletedOffers:YES];
             [[G6Pay getG6Instance] showOffers:userId
                                      delegate:nil
                                        parent:self
@@ -376,7 +384,6 @@
     
     [[G6Pay getG6Instance] installConfirm];
     
-    [[G6Pay getG6Instance] setPollForCompletedOffers:NO];
     [self setupView];
     
     // register for 

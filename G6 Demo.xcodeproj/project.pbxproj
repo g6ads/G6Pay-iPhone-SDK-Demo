@@ -15,16 +15,16 @@
 		2899E5220DE3E06400AC0155 /* G6PayModalExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* G6PayModalExampleViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* G6PayModalExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* G6PayModalExampleViewController.m */; };
-		77FB1E9712DBD55600A93C9E /* G6Pay.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FB1E9612DBD55600A93C9E /* G6Pay.m */; };
 		77FB1E9D12DBD57B00A93C9E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FB1E9812DBD57B00A93C9E /* Default.png */; };
 		77FB1E9E12DBD57B00A93C9E /* gift.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77FB1E9912DBD57B00A93C9E /* gift.jpg */; };
 		77FB1E9F12DBD57B00A93C9E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FB1E9A12DBD57B00A93C9E /* icon.png */; };
 		77FB1EA012DBD57B00A93C9E /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FB1E9B12DBD57B00A93C9E /* lock.png */; };
 		77FB1EA112DBD57B00A93C9E /* win.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FB1E9C12DBD57B00A93C9E /* win.png */; };
-		ADDD77E41361382A00E6C8A3 /* G6OfferDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDD77E31361382A00E6C8A3 /* G6OfferDTO.m */; };
-		ADDD77E7136139B100E6C8A3 /* G6TransactionDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDD77E6136139B000E6C8A3 /* G6TransactionDTO.m */; };
-		ADDD77EC1361463A00E6C8A3 /* G6ResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDD77EB1361463800E6C8A3 /* G6ResponseParser.m */; };
-		ADDD77EF1361692300E6C8A3 /* G6OfferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDD77EE1361692100E6C8A3 /* G6OfferViewController.m */; };
+		ADB06A34137275B9000DE761 /* G6OfferDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB06A29137275B9000DE761 /* G6OfferDTO.m */; };
+		ADB06A35137275B9000DE761 /* G6OfferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB06A2B137275B9000DE761 /* G6OfferViewController.m */; };
+		ADB06A36137275B9000DE761 /* G6Pay.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB06A2E137275B9000DE761 /* G6Pay.m */; };
+		ADB06A37137275B9000DE761 /* G6ResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB06A31137275B9000DE761 /* G6ResponseParser.m */; };
+		ADB06A38137275B9000DE761 /* G6TransactionDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB06A33137275B9000DE761 /* G6TransactionDTO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,24 +40,24 @@
 		28D7ACF70DDB3853001CB0EB /* G6PayModalExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G6PayModalExampleViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* G6 Demo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "G6 Demo_Prefix.pch"; sourceTree = "<group>"; };
-		77FB1E9512DBD55600A93C9E /* G6Pay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G6Pay.h; sourceTree = "<group>"; };
-		77FB1E9612DBD55600A93C9E /* G6Pay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G6Pay.m; sourceTree = "<group>"; };
 		77FB1E9812DBD57B00A93C9E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = images/Default.png; sourceTree = "<group>"; };
 		77FB1E9912DBD57B00A93C9E /* gift.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gift.jpg; path = images/gift.jpg; sourceTree = "<group>"; };
 		77FB1E9A12DBD57B00A93C9E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = images/icon.png; sourceTree = "<group>"; };
 		77FB1E9B12DBD57B00A93C9E /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lock.png; path = images/lock.png; sourceTree = "<group>"; };
 		77FB1E9C12DBD57B00A93C9E /* win.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win.png; path = images/win.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* G6 Demo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "G6 Demo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		ADDD77E21361382A00E6C8A3 /* G6OfferDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G6OfferDTO.h; sourceTree = "<group>"; };
-		ADDD77E31361382A00E6C8A3 /* G6OfferDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G6OfferDTO.m; sourceTree = "<group>"; };
-		ADDD77E5136139B000E6C8A3 /* G6TransactionDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G6TransactionDTO.h; sourceTree = "<group>"; };
-		ADDD77E6136139B000E6C8A3 /* G6TransactionDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G6TransactionDTO.m; sourceTree = "<group>"; };
-		ADDD77E813613A3B00E6C8A3 /* G6Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G6Protocol.h; sourceTree = "<group>"; };
-		ADDD77E913613A7200E6C8A3 /* G6Params.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G6Params.h; sourceTree = "<group>"; };
-		ADDD77EA1361463600E6C8A3 /* G6ResponseParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G6ResponseParser.h; sourceTree = "<group>"; };
-		ADDD77EB1361463800E6C8A3 /* G6ResponseParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G6ResponseParser.m; sourceTree = "<group>"; };
-		ADDD77ED1361691F00E6C8A3 /* G6OfferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G6OfferViewController.h; sourceTree = "<group>"; };
-		ADDD77EE1361692100E6C8A3 /* G6OfferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G6OfferViewController.m; sourceTree = "<group>"; };
+		ADB06A28137275B9000DE761 /* G6OfferDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G6OfferDTO.h; sourceTree = "<group>"; };
+		ADB06A29137275B9000DE761 /* G6OfferDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G6OfferDTO.m; sourceTree = "<group>"; };
+		ADB06A2A137275B9000DE761 /* G6OfferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G6OfferViewController.h; sourceTree = "<group>"; };
+		ADB06A2B137275B9000DE761 /* G6OfferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G6OfferViewController.m; sourceTree = "<group>"; };
+		ADB06A2C137275B9000DE761 /* G6Params.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G6Params.h; sourceTree = "<group>"; };
+		ADB06A2D137275B9000DE761 /* G6Pay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G6Pay.h; sourceTree = "<group>"; };
+		ADB06A2E137275B9000DE761 /* G6Pay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G6Pay.m; sourceTree = "<group>"; };
+		ADB06A2F137275B9000DE761 /* G6Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G6Protocol.h; sourceTree = "<group>"; };
+		ADB06A30137275B9000DE761 /* G6ResponseParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G6ResponseParser.h; sourceTree = "<group>"; };
+		ADB06A31137275B9000DE761 /* G6ResponseParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G6ResponseParser.m; sourceTree = "<group>"; };
+		ADB06A32137275B9000DE761 /* G6TransactionDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G6TransactionDTO.h; sourceTree = "<group>"; };
+		ADB06A33137275B9000DE761 /* G6TransactionDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G6TransactionDTO.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				ADDD77D81361317900E6C8A3 /* G6SDK */,
+				ADB06A27137275B9000DE761 /* G6Pay */,
 				1D3623240D0F684500981E51 /* G6PayModalExampleAppDelegate.h */,
 				1D3623250D0F684500981E51 /* G6PayModalExampleAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* G6PayModalExampleViewController.h */,
@@ -140,24 +140,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		ADDD77D81361317900E6C8A3 /* G6SDK */ = {
+		ADB06A27137275B9000DE761 /* G6Pay */ = {
 			isa = PBXGroup;
 			children = (
-				77FB1E9512DBD55600A93C9E /* G6Pay.h */,
-				77FB1E9612DBD55600A93C9E /* G6Pay.m */,
-				ADDD77E21361382A00E6C8A3 /* G6OfferDTO.h */,
-				ADDD77E31361382A00E6C8A3 /* G6OfferDTO.m */,
-				ADDD77E5136139B000E6C8A3 /* G6TransactionDTO.h */,
-				ADDD77E6136139B000E6C8A3 /* G6TransactionDTO.m */,
-				ADDD77E813613A3B00E6C8A3 /* G6Protocol.h */,
-				ADDD77E913613A7200E6C8A3 /* G6Params.h */,
-				ADDD77EA1361463600E6C8A3 /* G6ResponseParser.h */,
-				ADDD77EB1361463800E6C8A3 /* G6ResponseParser.m */,
-				ADDD77ED1361691F00E6C8A3 /* G6OfferViewController.h */,
-				ADDD77EE1361692100E6C8A3 /* G6OfferViewController.m */,
+				ADB06A28137275B9000DE761 /* G6OfferDTO.h */,
+				ADB06A29137275B9000DE761 /* G6OfferDTO.m */,
+				ADB06A2A137275B9000DE761 /* G6OfferViewController.h */,
+				ADB06A2B137275B9000DE761 /* G6OfferViewController.m */,
+				ADB06A2C137275B9000DE761 /* G6Params.h */,
+				ADB06A2D137275B9000DE761 /* G6Pay.h */,
+				ADB06A2E137275B9000DE761 /* G6Pay.m */,
+				ADB06A2F137275B9000DE761 /* G6Protocol.h */,
+				ADB06A30137275B9000DE761 /* G6ResponseParser.h */,
+				ADB06A31137275B9000DE761 /* G6ResponseParser.m */,
+				ADB06A32137275B9000DE761 /* G6TransactionDTO.h */,
+				ADB06A33137275B9000DE761 /* G6TransactionDTO.m */,
 			);
-			name = G6SDK;
-			sourceTree = "<group>";
+			path = G6Pay;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -228,11 +228,11 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* G6PayModalExampleAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* G6PayModalExampleViewController.m in Sources */,
-				77FB1E9712DBD55600A93C9E /* G6Pay.m in Sources */,
-				ADDD77E41361382A00E6C8A3 /* G6OfferDTO.m in Sources */,
-				ADDD77E7136139B100E6C8A3 /* G6TransactionDTO.m in Sources */,
-				ADDD77EC1361463A00E6C8A3 /* G6ResponseParser.m in Sources */,
-				ADDD77EF1361692300E6C8A3 /* G6OfferViewController.m in Sources */,
+				ADB06A34137275B9000DE761 /* G6OfferDTO.m in Sources */,
+				ADB06A35137275B9000DE761 /* G6OfferViewController.m in Sources */,
+				ADB06A36137275B9000DE761 /* G6Pay.m in Sources */,
+				ADB06A37137275B9000DE761 /* G6ResponseParser.m in Sources */,
+				ADB06A38137275B9000DE761 /* G6TransactionDTO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
