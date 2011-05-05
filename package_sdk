@@ -1,0 +1,37 @@
+#!/bin/sh
+
+export COPY_EXTENDED_ATTRIBUTES_DISABLE=true
+
+PACKAGE_NAME=G6SDK-iOS-v
+VER=$1
+
+if [ -z $1 ]; then
+  echo "You must specify a version"
+  echo "Usage $0 <version> (Should probably match the version in G6Pay.h)"
+  exit 1
+fi
+
+FOLDER=dist/$PACKAGE_NAME$VER
+rm -rf dist
+mkdir -p $FOLDER
+mkdir -p $FOLDER
+
+cp *.m $FOLDER
+cp *.xib $FOLDER
+cp *.plist $FOLDER
+cp *.pch $FOLDER
+
+cp -r *.xcodeproj $FOLDER
+cp -r Classes $FOLDER
+cp -r images $FOLDER
+cp -r G6Pay $FOLDER
+
+cp README $FOLDER
+cp g6*.pdf $FOLDER
+
+rm  -rf $FOLDER/*.xcodeproj/project.xcworkspace
+rm  -rf $FOLDER/*.xcodeproj/xcuserdata
+
+cd dist && tar -zcf $PACKAGE_NAME$VER.tgz $PACKAGE_NAME$VER
+
+echo "Package available at dist/$PACKAGE_NAME$VER.tgz"

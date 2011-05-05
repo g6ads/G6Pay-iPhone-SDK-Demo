@@ -1,4 +1,5 @@
 .DS_Store
+dist
 G6 Demo.xcodeproj/project.xcworkspace/
 G6 Demo.xcodeproj/xcuserdata/
 build
