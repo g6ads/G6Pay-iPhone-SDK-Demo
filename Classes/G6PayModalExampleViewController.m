@@ -186,8 +186,8 @@
 
 -(void) offerCompleted:(NSNotification *)notification {
     G6OfferDTO *dto = notification.object;
-    NSLog(@"Offer completed %2.2f", dto.netPayout);
     
+    [self setNotificationStatusText:[NSString stringWithFormat:@"Offer completed for %2.2f credits", dto.netPayout]];
 }
 
 -(void) getTransactionsSuccessNotification:(NSNotification *)notification {
@@ -195,7 +195,6 @@
     [self setNotificationStatusText:@"Transactions logged to NSLog"];
     
     NSArray *transactions = [notification object];
-    NSLog(@"Transactions count %d", [transactions count]);
     
     for (G6TransactionDTO *transaction in transactions) {
         NSLog(@"Transaction offerId:%@ offerName:%@ netPayout:%2.2f userId:%@ balance:%2.2f %@", 
@@ -388,7 +387,8 @@
     
     // register for 
 	[self checkBalance];
-	
+    
+
 }
 
 

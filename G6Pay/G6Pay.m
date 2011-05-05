@@ -186,7 +186,7 @@ BOOL initialized = NO;
                            nonsigParams:nonsigParams
                               secretKey:secretKey];
     
-    NSLog(@"*** G6Pay url %@", url);
+//    NSLog(@"DEBUG url %@", url);
     
     NSURLRequest* request = [NSURLRequest requestWithURL:[NSURL URLWithString:url]
                                              cachePolicy:NSURLRequestUseProtocolCachePolicy 
@@ -328,7 +328,7 @@ BOOL initialized = NO;
         
         NSString *methodName = [thisConnection objectForKey:@"_methodName"];
 
-        NSLog(@"Connection finished %@ %@", methodName, response);
+//        NSLog(@"DEBUG Connection finished %@ %@", methodName, response);
         // handle the response..
         
         if ([methodName isEqualToString:G6_API_CALL_OFFERWALL]) {
@@ -336,7 +336,6 @@ BOOL initialized = NO;
         } else if ([methodName isEqualToString:G6_API_CALL_ISCOMPLETED]) {
             G6OfferDTO *dto = [G6ResponseParser parseOffer:response];
             
-            NSLog(@"Parsed offer %2.2f", dto.netPayout);
             if (dto == nil) {
                 [self connection:connection didFailWithError:nil];
                 return;
@@ -472,9 +471,6 @@ navigationBarOnTop:(BOOL)navigationBarOnTop {
     NSString *url = [urlAndSig objectForKey:@"url"];
     NSString *signature = [urlAndSig objectForKey:@"signature"];
     
-    NSLog(@"G6Pay offers URL: %@", url);
-    NSLog(@"G6Pay offers signature: %@", signature);
-    
     G6OfferViewController *vc = [[G6OfferViewController alloc] initWithURL:url
                                                               andSignature:signature
                                                          andOffersDelegate:delegate
@@ -597,13 +593,15 @@ navigationBarOnTop:(BOOL)navigationBarOnTop {
 
 - (void)checkOffers:(NSString *)signature delegate:(id<G6OffersDelegate>)delegate {
     NSArray *sigParams = [NSArray arrayWithObjects:
-                          G6_PARAM_APP_ID, appId,
                           G6_PARAM_SIGNATURE, signature,
+                          nil];
+    NSArray *nonsigParams = [NSArray arrayWithObjects:
+                          G6_PARAM_APP_ID, appId,
                           nil];
     
     [self makeCall:G6_API_CALL_ISCOMPLETED
          sigParams:sigParams
-      nonsigParams:nil
+      nonsigParams:nonsigParams
           delegate:delegate];
 }
 
