@@ -16,6 +16,8 @@
 #import "G6ResponseParser.h"
 #import "G6OfferViewController.h"
 
+#define G6_VERSION 1.0
+
 #define G6_DEFAULT_TIMEOUT  60
 #define G6_DEFAULT_POLL_INTERVAL 30
 

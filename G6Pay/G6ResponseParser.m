@@ -30,6 +30,17 @@
 // userbalance:"192.60"
 + (NSNumber *)parseBalance:(NSString *)balanceString {
     
+    @try {
+        NSArray *tokens = [[balanceString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]] componentsSeparatedByString:@":"];
+        if (tokens == nil && [tokens count] > 0) {
+            if (![[tokens objectAtIndex:0] isEqualToString:@"userbalance"])
+                return nil;
+        }
+    }
+    @catch (NSException *ex) {
+        return nil;
+    }
+    
     NSArray *tokens = [balanceString componentsSeparatedByCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"\""]];
                        
     if (tokens == nil || [tokens count] < 2) return nil;

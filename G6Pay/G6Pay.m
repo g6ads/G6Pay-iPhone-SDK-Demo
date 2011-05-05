@@ -336,10 +336,13 @@ BOOL initialized = NO;
         } else if ([methodName isEqualToString:G6_API_CALL_ISCOMPLETED]) {
             G6OfferDTO *dto = [G6ResponseParser parseOffer:response];
             
+            NSLog(@"Parsed offer %2.2f", dto.netPayout);
             if (dto == nil) {
                 [self connection:connection didFailWithError:nil];
                 return;
             }
+            
+            [self stopOffersPoll];
             
             if (delegate != nil) {
                 id<G6OffersDelegate>d = delegate;
@@ -638,13 +641,14 @@ navigationBarOnTop:(BOOL)navigationBarOnTop {
                                                   selector:@selector(checkOffers:)
                                                   userInfo:userInfo
                                                    repeats:YES];
+        self.offersTimer = timer;
+        
+        // Start up the polling..
         
         NSRunLoop *runLoop = [NSRunLoop currentRunLoop];
         [runLoop addTimer:timer forMode:NSDefaultRunLoopMode];
         
-        self.offersTimer = timer;
-
-        // Start up the polling..
+        [timer release];
         
     }
 }
